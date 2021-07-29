@@ -3,18 +3,11 @@ title: "Teaching experience 1"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Department of Chemistry | UIC"
+location: "Chicago, USA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Physical Chemistry for Biochemists I (Fall’18); CHEM340; Thermodynamics
+Physical Chemistry I & II (Fall’17 & Spring’18); CHEM 342 & CHEM346:
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+** Topics Covered: ** Quantum Chemistry, Statistical Thermodynamics, Spectroscopy, Computational Chemistry
