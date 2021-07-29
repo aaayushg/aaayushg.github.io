@@ -1,5 +1,4 @@
 ---
-title: "Teaching experience 2"
 collection: teaching
 type: "General Chemistry & Laboratory"
 permalink: /teaching/2015-spring-teaching-1
