@@ -1,7 +1,6 @@
 ---
 collection: teaching
 type: "General Chemistry & Laboratory"
-permalink: /teaching/2015-spring-teaching-1
 venue: "Department of Chemistry | USA"
 location: "Chicago, USA"
 ---
