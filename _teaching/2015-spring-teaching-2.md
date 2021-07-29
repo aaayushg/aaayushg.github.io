@@ -1,20 +1,11 @@
 ---
 title: "Teaching experience 2"
 collection: teaching
-type: "Workshop"
+type: "General Chemistry & Laboratory"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+venue: "Department of Chemistry | USA"
+location: "Chicago, USA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+General Chemistry I & II (First Year); CHEM122, CHEM123, CHEM124 & CHEM125.
+**Duties:** Primary instructor in wet labs | Lead discussion classes | Grader | Problem solving hours
