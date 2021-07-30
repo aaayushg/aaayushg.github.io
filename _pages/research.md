@@ -36,8 +36,10 @@ o Modeled reaction isomerization path (cyclopropene to allene) using first princ
 o Predicted color of dye molecules using theoretical calculations - particle in a box/ring methods. 
 
 ## Undergraduate Research | ICT, Mumbai
-* Thesis titles: “Dyeing with Fluorescent Dyes” | “Computational insight into possible dehydrated and depolymerized mechanisms of cellulose” | Advisor: Dr. U Sayyed | Grade : A
-* Unforeseen bending in 1D silicene layers | Yearlong work in Prof. VG Gaikar group | (paper)
+* Thesis titles: “Dyeing with Fluorescent Dyes” & “Computational insight into possible dehydrated and depolymerized mechanisms of cellulose” 
+Advisor: Dr. U Sayyed | Grade : A
 
-## Industrial Experience | Crystal Chemicals, Mumbai | In-Plant Trainee | Summer’13
+* Unforeseen bending in 1D silicene layers - Yearlong work in Prof. VG Gaikar group 
+
+## Industrial Experience, Crystal Chemicals, Mumbai | In-Plant Trainee | Summer’13
 Work Description: Synthesis workflow of industrial auxiliaries and chemicals (wet-lab experiments)
