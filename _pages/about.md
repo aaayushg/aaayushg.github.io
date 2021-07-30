@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <p align="center">
-  <img src="https://aaayushg.github.io/images/aayu1.jpeg?raw=true" alt="Photo"/> 
+  <img src="https://aaayushg.github.io/images/aayu1.jpeg?raw=true" alt="Photo" style="width: 600px;/> 
 </p>
 
 I'm a PhD candidate in Computational Chemistry at University of Illinois at Chicago. 
