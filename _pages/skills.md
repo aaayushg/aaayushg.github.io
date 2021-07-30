@@ -1,3 +1,10 @@
+---
+layout: archive
+title: "Skills"
+permalink: /skills/
+author_profile: true
+---
+
 **Data Science:** 
 * Machine Learning methods: Clustering, SVM, Decision Tree, Neural Network, Autoencoders, Generative Adversarial Network (GAN), and other Deep Learning Models.
 
