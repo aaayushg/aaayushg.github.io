@@ -3,11 +3,18 @@ main:
   - title: "CV"
     url: /files/aayush.pdf
     
+  - title: "Research"
+    url: /research/
+    
+  - title: "Skills"
+    url: /skills/
+    
   - title: "Publications"
     url: /publications/
 
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/
+    
     
 
 
