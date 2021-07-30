@@ -1,3 +1,9 @@
+---
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
+---
 
 ## PhD Research | UIC | Advisor: Prof. Zhou <br/>
 * Developed a ML-enabled pipeline for large-scale virtual drug screening using clustering and deep learning in combination with physics-based approaches against RPN11 - a drug target for breast cancer.<br/>
