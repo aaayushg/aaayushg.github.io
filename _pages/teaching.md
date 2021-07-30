@@ -1,3 +1,10 @@
+---
+layout: archive
+title: "Professional"
+permalink: /teaching/
+author_profile: true
+---
+
 ## Reviewership Experience
 **Journal of Computational Biology**, Mary Ann Libert Inc Publishers [verified](https://publons.com/researcher/4578051/aayush-gupta/)
 
