@@ -16,4 +16,8 @@ author_profile: true
 * **Topics Covered:** Quantum Chemistry, Statistical Thermodynamics, Spectroscopy, Computational Chemistry <br/>
 
 **General Chemistry I & II (First Year); CHEM122, CHEM123, CHEM124 & CHEM125**<br/>
-* **Duties:** Primary instructor in wet labs | Lead discussion classes | Grader | Problem solving hours
+**Duties:** 
+* Primary instructor in wet labs 
+* Lead discussion classes
+* Grader
+* Problem solving hours
