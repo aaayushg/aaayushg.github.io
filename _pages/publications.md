@@ -7,7 +7,7 @@ author_profile: true
 
 ## Academic Publications
 
-1. Gupta, Aayush and Zhou, Huan-Xiang. (2021). A Machine Learning-Enabled Pipeline for Large-Scale Virtual Drug Screening, Journal of Chemical Information and Modeling (in revision)
+1. Gupta, Aayush and Zhou, Huan-Xiang. (2021). A Machine Learning-Enabled Pipeline for Large-Scale Virtual Drug Screening, Journal of Chemical Information and Modeling (in press)
 [bioRxiv](https://www.biorxiv.org/content/10.1101/2021.06.20.449177v1.abstract)
 
 3. Gupta, Aayush and Zhou, Huan-Xiang. (2020). Profiling SARS-CoV-2 main protease (MPRO) binding to repurposed drugs using molecular dynamics simulations in classical and neural network-trained force fields. ACS Combinatorial Science. 22(12), 826-832.
