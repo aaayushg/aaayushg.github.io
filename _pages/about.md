@@ -18,9 +18,9 @@ My research interests involve integration of **machine learning** with next-gene
 
 When not researching, I am a self proclaimed chef - loves to fuse-cook different cuisines. In sports, I play Badminton and a frequent Marathon runner. Great at playing Poker (Champion @ Schrodinger Poker Night'2019)
 
-**Highlighted Research**
-Gupta, Aayush and Zhou, Huan-Xiang. (2020). Profiling SARS-CoV-2 main protease (MPRO) binding to repurposed drugs using molecular dynamics simulations in classical and neural network-trained force fields. ACS Combinatorial Science. 22(12), 826-832.
-[ACS Comb Sci](https://pubs.acs.org/doi/abs/10.1021/acscombsci.0c00140)
+**Highlighted Research**<br/>
+Gupta, Aayush and Zhou, Huan-Xiang. (2020). Profiling SARS-CoV-2 main protease (MPRO) binding to repurposed drugs using molecular dynamics simulations in classical and neural network-trained force fields. [ACS Combinatorial Science](https://pubs.acs.org/doi/abs/10.1021/acscombsci.0c00140). 22(12), 826-832.<br/>
+[[PDF]](https://aaayushg.github.io/files/acscomb.pdf)<br/>
 [More publication](https://aaayushg.github.io/publications/)
 
 **Awards & Activities:**
