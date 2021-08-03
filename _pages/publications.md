@@ -11,10 +11,10 @@ author_profile: true
 [PDF]()
 
 3. Gupta, Aayush and Zhou, Huan-Xiang. (2020). Profiling SARS-CoV-2 main protease (MPRO) binding to repurposed drugs using molecular dynamics simulations in classical and neural network-trained force fields. [ACS Combinatorial Science](https://pubs.acs.org/doi/abs/10.1021/acscombsci.0c00140). 22(12), 826-832.
-[PDF](https://aaayushg.github.io/blob/master/files/acscomb.pdf)
+[PDF](https://app.box.com/s/mqt4oz3wcisfmrtbllg4cri94qvzisk9)
 
 4. Gupta, Aayush and Arora, Jyotsna S. (2017). DFT evidence of unforeseen bending in linearly fused polycyclic rings of Hexasilabenzenoids. [Computational and Theoretical Chemistry](https://www.sciencedirect.com/science/article/abs/pii/S2210271X16304492), 1099, 87-91.
-[PDF](https://aaayushg.github.io/blob/master/files/Silicene.pdf)
+[PDF](https://aaayushg.github.io/files/Silicene.pdf)
 
 ## Presentation and Posters
 
