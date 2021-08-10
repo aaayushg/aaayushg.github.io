@@ -15,7 +15,7 @@ author_profile: true
 
 * **Topics Covered:** Quantum Chemistry, Statistical Thermodynamics, Spectroscopy, Computational Chemistry <br/>
 
-**[General Chemistry I & II (First Year)](https://catalog.uic.edu/all-course-descriptions/chem/); [CHEM122], CHEM123, CHEM124 & CHEM125**<br/>
+**[General Chemistry I & II (First Year)](https://catalog.uic.edu/all-course-descriptions/chem/); CHEM122, CHEM123, CHEM124 & CHEM125**<br/>
 
 **Duties:** 
 * Primary instructor in wet labs 
