@@ -21,25 +21,30 @@ author_profile: true
 
 ## Previous Research Internships | Undergraduate<br/>
 * Moscow Institute of Physics and Technology, Moscow, Russia | Advisor: [Prof. Artem Oganov](http://uspex-team.org/en/oganov) <br/>
-o Studied conformational landscape of Europium Nitride (Eu2N) crystal structure (using USPEX)<br/>
+o Studied conformational landscape of Europium Nitride (Eu2N) crystal structure (using USPEX) <br/>
+o Identified the most stable structure using local minima of potential energy surface. <br/>
 
-* Indian Institute of Sciences (IISc), Bengaluru | Advisor: [Prof. S Yashonath](https://iiscprofiles.irins.org/profile/42772)
-o Performed molecular dynamics simulations of Zeolite MOF with warfare agents (xylene, benzene etc)
+* Indian Institute of Sciences (IISc), Bengaluru | Advisor: [Prof. S Yashonath](https://iiscprofiles.irins.org/profile/42772)<br/>
+o Performed nanoscale molecular dynamics simulations of Zeolite MOF using DLPOLY package. <br/>
+o Analyzed different warfare agents (Xylene, Benzene etc) adsorbed on the Zeolite surface. <br/>
 
-* Bhabha Atomic and Research Centre, Mumbai | Advisor: [Prof. Swapan Ghosh](https://www.cbs.ac.in/people/faculty-swapan-ghosh)
-o Carried out periodic DFT on novel porous carbon nitride (C3N4) to investigate water splitting reactions. 
+* Bhabha Atomic and Research Centre, Mumbai | Advisor: [Prof. Swapan Ghosh](https://www.cbs.ac.in/people/faculty-swapan-ghosh)<br/>
+o Carried out periodic DFT on novel porous carbon nitride (C3N4) as a catalyst for photooxidation of water. <br/>
+o Investigated 4e- and 2e- water splitting reactions (DFT calculations using GAMESS package). <br/>
 
-* National Institute of Interdisciplinary Science and Technology (CSIR) | Advisor: [Dr. CH Suresh](http://www.niist.res.in/chsuresh/)
-o Modeled reaction isomerization path (cyclopropene to allene) using first principle methods.
+* National Institute of Interdisciplinary Science and Technology (CSIR) | Advisor: [Dr. CH Suresh](http://www.niist.res.in/chsuresh/)<br/>
+o Modeled reaction isomerization path (cyclopropene to allene) using first principle methods. <br/>
+o Proposed a new reaction pathway with smaller activation energy (performed transition state DFT calculations). <br/>
 
-* Institute of Chemical Technology | Advisor: [Prof. N. Sekar](http://www.niist.res.in/chsuresh/)
-o Predicted color of dye molecules using theoretical calculations - particle in a box/ring methods. 
+* Institute of Chemical Technology | Advisor: [Prof. N. Sekar](http://www.niist.res.in/chsuresh/)<br/>
+o Predicted color of dye molecules using theoretical calculations - particle in a box/ring methods. <br/>
+o Theoretical model was evaluated against the experimental references to test its efficiency. <br/>
 
 ## Undergraduate Research | ICT, Mumbai
-* Thesis titles: “Dyeing with Fluorescent Dyes” & “Computational insight into possible dehydrated and depolymerized mechanisms of cellulose” 
-Advisor: Dr. U Sayyed | Grade : A
+* Thesis titles: “Dyeing with Fluorescent Dyes” & “Computational insight into possible dehydrated and depolymerized mechanisms of cellulose” <br/>
+Advisor: Dr. U Sayyed | Grade : A <br/>
 
-* Unforeseen bending in 1D silicene layers - Yearlong work in [Prof. VG Gaikar](https://www.ictmumbai.edu.in/emp_profiledetail.aspx?nDeptID=ic) group 
+* Unforeseen bending in 1D silicene layers - Yearlong work in [Prof. VG Gaikar](https://www.ictmumbai.edu.in/emp_profiledetail.aspx?nDeptID=ic) group <br/>
 
-## Industrial Experience, Crystal Chemicals, Mumbai | In-Plant Trainee | Summer’13
-Work Description: Synthesis workflow of industrial auxiliaries and chemicals (wet-lab experiments)
+## Industrial Experience, Crystal Chemicals, Mumbai | In-Plant Trainee | Summer’13 <br/>
+Work Description: Synthesis workflow of industrial auxiliaries and chemicals (wet-lab experiments) <br/>
