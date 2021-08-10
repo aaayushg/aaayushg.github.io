@@ -22,7 +22,7 @@ author_profile: true
 ## Previous Research Internships | Undergraduate<br/>
 * Moscow Institute of Physics and Technology, Moscow, Russia | Advisor: [Prof. Artem Oganov](http://uspex-team.org/en/oganov) <br/>
 o Used evolutionary algorithm (USPEX) to predict the stable and metastable structures of europium nitride (with the chemical composition only).<br/>
-o Reported the most stable structure of the crystal using local minima of potential energy surface.<br/>
+o Reported the most crystal stable structure in reference to the experimental literature.<br/>
 
 * Indian Institute of Sciences (IISc), Bengaluru | Advisor: [Prof. S Yashonath](https://iiscprofiles.irins.org/profile/42772)<br/>
 o Performed nanoscale molecular dynamics simulations of Zeolite MOF using DLPOLY package. <br/>
