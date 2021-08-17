@@ -19,7 +19,7 @@ My research interests involve integration of **machine learning** with next-gene
 When not researching, I am a self proclaimed chef - loves to fuse-cook different cuisines. In sports, I play Badminton and a frequent Marathon runner. Great at playing Poker (Champion @ Schrodinger Poker Night'2019)
 
 **Highlighted Research**<br/>
-**Gupta, Aayush** and Zhou, Huan-Xiang. (2020). A Machine Learning-Enabled Pipeline for Large-Scale Virtual Drug Screening, Journal of Chemical Information and Modeling doi:10.1021/acs.jcim.1c00710 <br/>
+**Gupta, Aayush** and Zhou, Huan-Xiang. (2021). A Machine Learning-Enabled Pipeline for Large-Scale Virtual Drug Screening, [Journal of Chemical Information and Modeling](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00710) doi:10.1021/acs.jcim.1c00710 <br/>
 [[PDF]](https://aaayushg.github.io/files/jcim.pdf)<br/>
 [More publication](https://aaayushg.github.io/publications/)
 
