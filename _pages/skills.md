@@ -25,8 +25,9 @@ author_profile: true
 
 **Simulation Packages:**
 
-* Molecular Dynamics Packages: NAMD, AMBER, DL-POLY, Gromacs, Desmond
-* Quantum Chemistry Packages: Siesta, Gaussian16, Orca, Terachem, GAMESS, VASP, USPEX, Quantum-Espresso
-* Molecular Docking Packages: Autodock, Glide, Gold, DLscore, Pafnucy. 
-* Visualization Packages: VMD, Pymol, Chimera, Molden, Gabedit, Gaussview, VESTA, Avogadro, Mercury. 
+* Molecular Dynamics Packages: NAMD, AMBER, DL-POLY, Gromacs, and Desmond
+* Quantum Chemistry Packages: Siesta, Gaussian16, Orca, Terachem, GAMESS, VASP, USPEX, and Quantum-Espresso
+* Molecular Docking Packages: Autodock, Glide, Gold, DLscore, and Pafnucy. 
+* Visualization Packages: VMD, Pymol, Chimera, Molden, Gabedit, Gaussview, VESTA, Avogadro, and Mercury. 
 * Cheminformatics Tools: RDKit, OpenBabel, Balloon, and Confab (for generating drug conformations)
+* Biochemistry skills: Protein purification, X-ray crystallography, and CyroEM
