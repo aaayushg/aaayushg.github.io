@@ -14,9 +14,11 @@ redirect_from:
 
 I'm a **PhD** candidate in **Computational Chemistry** at **University of Illinois at Chicago**
 
-My research interests involve integration of **machine learning** with next-generation **quantum and classical molecular modeling**. Versatile skills in computer programming, data science, and building Linux servers and GPUs. Strong experience in developing computational methods for drug discovery and sampling protein structures. **Entrepreneurial plus independent research skills** from framing new ideas, building prototypes to documenting in peer-reviewed journals. Track record of first-author publications in peer-reviewer journals. Passionate about learning and implementing novel and challenging techniques that are advancing the science.
+My research interests involve integration of **machine learning** with next-generation **quantum and classical molecular modeling**. Versatile skills in computer programming, data science, and building Linux servers and GPUs. Strong experience in developing computational workflows for solving electronic structure and protein-drug modeling. **Entrepreneurial plus independent** research skills from framing new ideas, building prototypes to documenting in peer-reviewed journals (track record of first-author publications). Passionate about learning and implementing novel and challenging techniques that are advancing the science..
 
-When not researching, I am a self proclaimed chef - loves to fuse-cook different cuisines. In sports, I play Badminton and a frequent Marathon runner. Great at playing Poker (Champion @ Schrodinger Poker Night'2019)
+When not researching, I am a self proclaimed chef - love to fuse-cook different cuisines. 
+In sports, I play badminton and a frequent marathon runner. 
+Good at playing Poker (Champion @ Schrodinger Poker Night'2019)
 
 **Highlighted Research**<br/>
 **Gupta, Aayush** and Zhou, Huan-Xiang. (2021). A Machine Learning-Enabled Pipeline for Large-Scale Virtual Drug Screening, [Journal of Chemical Information and Modeling](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00710) doi:10.1021/acs.jcim.1c00710 <br/>
