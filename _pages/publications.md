@@ -8,7 +8,7 @@ author_profile: true
 ## Academic Publications
 4. **Gupta, Aayush** and Zhou, Huan-Xiang. Artificial Intelligence Guided Conformational Sampling of Intrinsically Disordered Proteins. Manuscript in preparation.
 
-3. **Gupta, Aayush** and Zhou, Huan-Xiang. (2021). A Machine Learning-Enabled Pipeline for Large-Scale Virtual Drug Screening, [Journal of Chemical Information and Modeling](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00710)
+3. **Gupta, Aayush** and Zhou, Huan-Xiang. (2021). A Machine Learning-Enabled Pipeline for Large-Scale Virtual Drug Screening, [Journal of Chemical Information and Modeling](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00710), 61, 4236-4244
 [[PDF]](https://aaayushg.github.io/files/jcim.pdf)
 
 2. **Gupta, Aayush** and Zhou, Huan-Xiang. (2020). Profiling SARS-CoV-2 main protease (MPRO) binding to repurposed drugs using molecular dynamics simulations in classical and neural network-trained force fields. [ACS Combinatorial Science](https://pubs.acs.org/doi/abs/10.1021/acscombsci.0c00140). 22(12), 826-832.
