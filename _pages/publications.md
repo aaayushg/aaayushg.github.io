@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## Academic Publications
-4. **Gupta, Aayush**, Dey, Souvik, and Zhou, Huan-Xiang. Artificial Intelligence Guided Conformational Sampling of Intrinsically Disordered Proteins. *Submitted. [bioRxiv](https://www.biorxiv.org/content/10.1101/2021.11.21.469457v1).
+4. **Gupta, Aayush**, Dey, Souvik, and Zhou, Huan-Xiang. Artificial Intelligence Guided Conformational Sampling of Intrinsically Disordered Proteins. *Submitted*. [bioRxiv](https://www.biorxiv.org/content/10.1101/2021.11.21.469457v1).
 
 3. **Gupta, Aayush** and Zhou, Huan-Xiang. (2021). A Machine Learning-Enabled Pipeline for Large-Scale Virtual Drug Screening, [Journal of Chemical Information and Modeling](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00710), 61, 9, 4236-4244.
 [[PDF]](https://aaayushg.github.io/files/jcim.pdf)
