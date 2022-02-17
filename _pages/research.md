@@ -6,10 +6,10 @@ author_profile: true
 ---
 
 ## PhD Research | UIC | Advisor: Prof. Zhou <br/>
-* Implementing [generative deep learning](https://github.com/aaayushg/generative_IDPs) model to guide conformational sampling of intrinsically disordered proteins (IDPs) and to reduce dimensionality.<br/>
+* Implemented [generative deep learning](https://github.com/aaayushg/generative_IDPs) model to guide conformational sampling of intrinsically disordered proteins (IDPs) and to reduce dimensionality.<br/>
 * Developed a ML-enabled pipeline for large-scale virtual drug screening using [clustering and deep learning](https://github.com/aaayushg/RPN11_inhibitors) in combination with physics-based approaches against RPN11 - a drug target for breast cancer.<br/>
 * Designed an efficient workflow for hit-to-lead drug discovery by integrating a hybrid neural-network/classical potentials molecular dynamics simulations against COVID-19 main protease (MPRO).<br/>
-* Other areas: Modeling electron transport in peptide helices subject to chirality induced spin selectivity (CISS) effect and its application in protein-protein association.<br/>
+* Other areas: Modeled electron transport in peptide helices subject to chirality induced spin selectivity (CISS) effect and its application in protein-protein association.<br/>
 
 ## Research Internship | [Schrödinger Inc](https://www.schrodinger.com/), NYC Summer’19
 * Evaluated performance of deep neural network potentials (ANI) to achieve DFT accuracy at force-field speed (100x) for small molecule crystal polymorph prediction. Reported 98% DFT-ANI correlation in prediction. <br/>
