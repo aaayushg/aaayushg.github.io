@@ -12,7 +12,7 @@ redirect_from:
   <img src="https://aaayushg.github.io/images/aayu1.jpeg?raw=true" alt="Photo" style="width: 500px;"/> 
 </p>
 
-**Computational Chemistry** researcher with a Ph.D. Degree from **University of Illinois at Chicago**
+**Computational Chemistry** researcher with a Ph.D. from **University of Illinois**
 
 My research interests involve integration of **machine learning** with next-generation **quantum and classical molecular modeling**. Versatile skills in computer programming, data science, and building Linux servers and GPUs. Strong experience in developing computational workflows for solving electronic structure and protein-drug modeling. **Entrepreneurial plus independent** research skills from framing new ideas, building prototypes to documenting in peer-reviewed journals (track record of first-author publications). Passionate about learning and implementing novel and challenging techniques that are advancing the science..
 
