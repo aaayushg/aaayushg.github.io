@@ -1,6 +1,6 @@
 ---
 <!-- layout: archive -->
-title: "Aayush Gupta"
+title: "Aayush Gupta, PhD"
 permalink: /cv/
 author_profile: true
 redirect_from:
