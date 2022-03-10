@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-## AI Research Scientist | Exscientia 
+## AI Research Scientist | Exscientia, Miami, US
 * Inventing new approaches in AI based drug discovery.
 
 ## PhD Research | UIC | Advisor: Prof. Zhou <br/>
