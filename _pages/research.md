@@ -5,6 +5,9 @@ permalink: /research/
 author_profile: true
 ---
 
+## AI Research Scientist | Exscientia 
+* Inventing new approaches in AI based drug discovery.
+
 ## PhD Research | UIC | Advisor: Prof. Zhou <br/>
 * Implemented [generative deep learning](https://github.com/aaayushg/generative_IDPs) model to guide conformational sampling of intrinsically disordered proteins (IDPs) and to reduce dimensionality.<br/>
 * Developed a ML-enabled pipeline for large-scale virtual drug screening using [clustering and deep learning](https://github.com/aaayushg/RPN11_inhibitors) in combination with physics-based approaches against RPN11 - a drug target for breast cancer.<br/>
