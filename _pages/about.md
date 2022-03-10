@@ -18,7 +18,8 @@ redirect_from:
 <p align="center">
   <strong>Computational Chemistry</strong> researcher with a <strong>Ph.D.</strong> from <strong>University of Illinois</strong>
 </p>
-  
+
+
 My research interests involve integration of **machine learning** with next-generation **quantum and classical molecular modeling**. Versatile skills in computer programming, data science, and building Linux servers and GPUs. Strong experience in developing computational workflows for solving electronic structure and protein-drug modeling. **Entrepreneurial plus independent** research skills from framing new ideas, building prototypes to documenting in peer-reviewed journals (track record of first-author publications). Passionate about learning and implementing novel and challenging techniques that are advancing the science..
 
 When not researching, I am a self proclaimed chef - love to fuse-cook different cuisines. 
