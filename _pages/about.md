@@ -13,11 +13,10 @@ redirect_from:
 </p>
 
 <p align="center">
-**AI Research Scientist** at [**Exscientia, Miami, US**](https://www.exscientia.ai/)<br/>
-</p>
+  <strong>AI Research Scientist</strong> at <strong><a href="https://www.exscientia.ai/">Exscientia, Miami, US</a></strong>
  
 <p align="center">
-**Computational Chemistry** researcher with a Ph.D. from **University of Illinois**<br/>
+  <strong>Computational Chemistry</strong> researcher with a <strong>Ph.D.</strong> from <strong>University of Illinois</strong>
 </p>
   
 My research interests involve integration of **machine learning** with next-generation **quantum and classical molecular modeling**. Versatile skills in computer programming, data science, and building Linux servers and GPUs. Strong experience in developing computational workflows for solving electronic structure and protein-drug modeling. **Entrepreneurial plus independent** research skills from framing new ideas, building prototypes to documenting in peer-reviewed journals (track record of first-author publications). Passionate about learning and implementing novel and challenging techniques that are advancing the science..
