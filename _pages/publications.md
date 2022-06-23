@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## Academic Publications
-4. **Gupta, Aayush**, Gupta, A., Dey, S., Hicks, A. et al. Artificial intelligence guided conformational mining of intrinsically disordered proteins. [Nature Commununications Biol] (https://www.nature.com/articles/s42003-022-03562-y#citeas), 5, 610 (2022). 
+4. **Gupta, Aayush**, Gupta, A., Dey, S., Hicks, A. et al. Artificial intelligence guided conformational mining of intrinsically disordered proteins. [Nature Commununications Biol](https://www.nature.com/articles/s42003-022-03562-y#citeas), 5, 610 (2022). 
 [[PDF]](https://aaayushg.github.io/files/ai_idp.pdf)
 
 3. **Gupta, Aayush** and Zhou, Huan-Xiang. (2021). A Machine Learning-Enabled Pipeline for Large-Scale Virtual Drug Screening, [Journal of Chemical Information and Modeling](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00710), 61, 9, 4236-4244.
