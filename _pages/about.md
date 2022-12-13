@@ -29,8 +29,8 @@ When Aayush is not solving problems in computational chemistry, he plays poker (
   <strong>Highlighted Research</strong><br/>
 </p>
 
-<strong>Gupta, Aayush</strong> and Zhou, Huan-Xiang. (2021). A Machine Learning-Enabled Pipeline for Large-Scale Virtual Drug Screening, <a href="https://pubs.acs.org/doi/10.1021/acs.jcim.1c00710">Journal of Chemical Information and Modeling doi:10.1021/acs.jcim.1c00710 </a><br/>
-<a href="https://aaayushg.github.io/files/jcim.pdf">[PDF]</a><br/>
+<strong>Gupta, Aayush</strong>,Dey, Souvik, Hicks, Alan, and Zhou, Huan-Xiang. (2021). Artificial intelligence guided conformational mining of intrinsically disordered proteins. [Nature Communications Biology](https://doi.org/10.1038/s42003-022-03562-y) </a><br/>
+<a href="https://aaayushg.github.io/files/ai_idp.pdf">[PDF]</a><br/>
 <a href="https://aaayushg.github.io/publications/">More publication</a><br/>
 <br/>
 
