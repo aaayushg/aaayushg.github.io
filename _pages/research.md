@@ -6,7 +6,16 @@ author_profile: true
 ---
 
 ## AI Research Scientist | Exscientia, Miami, US
-* Inventing new approaches in AI based drug discovery.
+Working with the AI-ML team to expedite drug discovery by developing hybrid AI/QM/MM methods. Leading PhysicsML team (within ML team).
+*   Discovered graph-based neural network potential (EXS-NNP) outperforming state-of-the-art ANI on coupled-cluster theory dataset, recognized as a significant breakthrough at Exscientia.
+*   Enhanced efficiency of NNPs by reimplementing them for multi-GPU training and predictions, automated training workflow, and integrated for conformer generations and MD simulations.
+*   Research project (10% innovation): "Fusing Force-Field Features within GNNs": Crafted a novel message- passing GNN architecture bridging AI & Physics, predicting fast and accurate energies/binding-affinity.
+
+Bridging the gap between ML teams and chemists by actively engaging with medicinal chemists to refine AI models based on their feedback.
+*   Projects involved: Diffusion Model Based Docking; to mitigate protein-ligand clashes.
+*   Active Learning for Compound Selection: to refine binding free energy predictions,
+*   Implemented a docking workflow to generate 3D structural features, and integrating these features with 2D ADMET models, resulting enhanced overall performance.
+*   Successfully reintroduced Deep Learning based AI-based linker generation between two fragments, resulting in the submission of two molecules for synthesis and in-vitro assays
 
 ## PhD Research | UIC | Advisor: Prof. Zhou <br/>
 * Implemented [generative deep learning](https://github.com/aaayushg/generative_IDPs) model to guide conformational sampling of intrinsically disordered proteins (IDPs) and to reduce dimensionality.<br/>
