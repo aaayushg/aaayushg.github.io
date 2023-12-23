@@ -6,7 +6,13 @@ author_profile: true
 ---
 
 ## Reviewership Experience
-**Journal of Computational Biology**, Mary Ann Libert Inc Publishers [verified](https://publons.com/researcher/4578051/aayush-gupta/)
+**Journal of Computational Biology**, [verified](https://publons.com/researcher/4578051/aayush-gupta/) <br/>
+* Title: Screening of SARS-CoV-2 RNA-dependent RNA Polymerase Inhibitors using Computational Approach
+**Journal of Advances in Medicine and Medical Research** (web of science)
+* Title: Lectin pathway and complement activation in COVID-19: A Systematic Review
+**Journal of Advances in Medical and Pharmaceutical Sciences(( (publons)
+* Title: Exploring the Psychoneuropharmacological Attributes of Eclipta alba (Linn) in Mice.
+
 
 ## Teaching Experience
 
