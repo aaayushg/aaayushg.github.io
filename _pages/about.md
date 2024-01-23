@@ -17,7 +17,7 @@ redirect_from:
 </p>
 
 <p align="center">
-  <strong> Previous AI Research Scientist</strong> at <strong><a href="https://www.exscientia.ai/">Exscientia, Inc</a></strong>
+  Previous AI Research Scientist at <strong><a href="https://www.exscientia.ai/">Exscientia, Inc</a></strong>
 
 <p align="center">
   Ex-Research Fellow at <a href="https://www.schrodinger.com/">Schrodinger, Inc</a>, MIPT-Russia, IISc-Bengaluru, BARC-Mumbai, CSIR, India
