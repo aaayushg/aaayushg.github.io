@@ -13,8 +13,14 @@ redirect_from:
 </p>
 
 <p align="center">
-  <strong>AI Research Scientist</strong> at <strong><a href="https://www.exscientia.ai/">Exscientia, Miami, US</a></strong>
+  <strong>Senior Scientist</strong> at <strong><a href="https://www.deepcure.ai/">DeepCure Inc</a></strong>
 </p>
+
+<p align="center">
+  <strong> Previous AI Research Scientist</strong> at <strong><a href="https://www.exscientia.ai/">Exscientia Inc</a></strong>
+
+<p align="center">
+  <strong> Ex-Research Fellow at Schrodinger Inc, MIPT-Russia, IISc-Bengaluru, BARC-Mumbai, CSIR, India
 
 <p align="center">
   <strong>Computational Chemistry</strong> researcher with a <strong>Ph.D.</strong> from <strong>University of Illinois</strong>
