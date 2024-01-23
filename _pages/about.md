@@ -13,17 +13,17 @@ redirect_from:
 </p>
 
 <p align="center">
-  <strong>Senior Scientist</strong> at <strong><a href="https://www.deepcure.ai/">DeepCure Inc</a></strong>
+  <strong>Senior Scientist (AI and Computational Chemistry) </strong> at <strong><a href="https://www.deepcure.ai/">DeepCure Inc</a></strong>
 </p>
 
 <p align="center">
   <strong> Previous AI Research Scientist</strong> at <strong><a href="https://www.exscientia.ai/">Exscientia Inc</a></strong>
 
 <p align="center">
-  <strong> Ex-Research Fellow at Schrodinger Inc, MIPT-Russia, IISc-Bengaluru, BARC-Mumbai, CSIR, India
+  Ex-Research Fellow at <a href="https://www.schrodinger.com/">Schrodinger Inc</a>, MIPT-Russia, IISc-Bengaluru, BARC-Mumbai, CSIR, India
 
 <p align="center">
-  <strong>Computational Chemistry</strong> researcher with a <strong>Ph.D.</strong> from <strong>University of Illinois</strong>
+  Researcher with a <strong>Ph.D.</strong> from <strong>University of Illinois</strong>
 </p>
 
 Aayush's research interests involve integration of <strong>machine learning</strong> with next-generation <strong>quantum and classical molecular modeling</strong>. Versatile skills in computer programming, data science, and building Linux servers and GPUs. He has strong experience in developing computational workflows for solving electronic structure and protein-drug modeling. He has <strong>entrepreneurial plus independent</strong> research skills from framing new ideas, building prototypes to documenting in peer-reviewed journals (track record of first-author publications). He is passionate about learning and implementing novel and challenging techniques that are advancing the science.<br/>
