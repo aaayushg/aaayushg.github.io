@@ -10,6 +10,8 @@ author_profile: true
   Title: Screening of SARS-CoV-2 RNA-dependent RNA Polymerase Inhibitors using Computational Approach<br/>
 * Journal of Advances in Medicine and Medical Research<br/>
   Title: Lectin pathway and complement activation in COVID-19: A Systematic Review<br/>
+* Recent Developments in Chemistry and Biochemistry Research<br/>
+  Title: Synthesis and Antiproliferative Activity of Some Dihydro-1H-furo[2,3-c]pyrazole-Flavone Hybrids<br/>
 * Journal of Advances in Medical and Pharmaceutical Sciences<br/>
   Title: Exploring the Psychoneuropharmacological Attributes of Eclipta alba (Linn) in Mice<br/>
 
