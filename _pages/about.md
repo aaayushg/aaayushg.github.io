@@ -26,7 +26,14 @@ redirect_from:
   Researcher with a <strong>Ph.D.</strong> from <strong>University of Illinois</strong>
 </p>
 
-Aayush's research interests involve integration of <strong>machine learning</strong> with next-generation <strong>quantum and classical molecular modeling</strong>. Versatile skills in computer programming, data science, and building Linux servers and GPUs. He has strong experience in developing computational workflows for solving electronic structure and protein-drug modeling. He has <strong>entrepreneurial plus independent</strong> research skills from framing new ideas, building prototypes to documenting in peer-reviewed journals (track record of first-author publications). He is passionate about learning and implementing novel and challenging techniques that are advancing the science.<br/>
+Aayush is an innovative AI computational chemist with over 9 years of combined academic and industrial experience.
+His research focus is at the nexus of AI, Physics and Chemistry, he seamlessly integrates AI into advanced quantum
+and classical molecular modeling. He is proficient in machine learning, programming, and data science, and is well-
+versed with AWS, Linux servers, and GPUs. Aayush has a strong background in developing ML-based computational
+workflows for solving molecular properties and protein-drug modeling. He has consistently displayed entrepreneurial
+and independent research skills throughout his career. He has a proven track record of publishing as a first author in
+peer-reviewed journals, showcasing his ability to generate new ideas, develop prototypes, and document his findings.
+Passionate about learning and innovation, Aayush is committed to pushing “AI for Science” forward.<br/>
 <br/>
 When Aayush is not solving problems in computational chemistry, he plays poker (Champion @ Schrodinger Poker Night'2019) and watches/reads Japanese animes/mangas. Aayush is also a licensed drone pilot who creates aesthetic videos (see here and here). He also mentions himself self proclaimed chef - love to fuse-cook different cuisines. In sports, he loves to play badminton and a frequent marathon runner.<br/>
 <br/>
