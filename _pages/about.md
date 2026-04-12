@@ -11,10 +11,6 @@ redirect_from:
   <section class="hero-panel hero-panel--immersive">
     <div class="hero-photo-banner">
       <img src="/images/aayu1.jpeg" alt="Aayush Gupta">
-      <div class="hero-photo-notes" aria-hidden="true">
-        <span class="hero-photo-note">AI for molecular design</span>
-        <span class="hero-photo-note">Boston · Computational Chemistry</span>
-      </div>
     </div>
     <div class="hero-body">
       <div class="hero-layout">
