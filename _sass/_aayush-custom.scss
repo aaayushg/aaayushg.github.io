@@ -90,6 +90,9 @@ body::before {
 
 #main {
   animation: pageEnter 0.72s cubic-bezier(0.22, 1, 0.36, 1) both;
+  max-width: min(1440px, calc(100vw - 2rem));
+  padding-left: clamp(1rem, 2vw, 2rem);
+  padding-right: clamp(1rem, 2vw, 2rem);
 }
 
 #main.page--home-shell {
@@ -112,6 +115,25 @@ body::before {
 
 .page--home .page__content > * {
   max-width: none;
+}
+
+.page:not(.page--home),
+.archive {
+  float: none;
+  width: 100%;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page:not(.page--home) {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.page:not(.page--home) .page__inner-wrap,
+.archive {
+  width: 100%;
 }
 
 p,
