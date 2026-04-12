@@ -22,6 +22,7 @@ redirect_from:
           </div>
           <div class="hero-title-stack">
             <h1 class="hero-title">Aayush Gupta</h1>
+            <p class="hero-bridge">Computational chemist and machine learning scientist for drug discovery.</p>
           </div>
           <p class="hero-lead">I build machine learning and computational chemistry systems for drug discovery — spanning peptide modalities, protein binder design, molecular simulation, ADME prediction, and high-throughput screening. My work sits between chemistry, physics, and AI.</p>
 
