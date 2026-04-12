@@ -549,7 +549,7 @@ h6,
 .hero-photo-banner {
   position: relative;
   width: 100%;
-  height: clamp(360px, 52vw, 620px);
+  height: clamp(300px, 42vw, 500px);
   overflow: hidden;
 }
 
@@ -1386,7 +1386,7 @@ h6,
   }
 
   .hero-photo-banner {
-    height: clamp(280px, 50vw, 420px);
+    height: clamp(220px, 42vw, 340px);
   }
 
   .hero-body {
