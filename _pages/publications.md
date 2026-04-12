@@ -23,19 +23,24 @@ author_profile: false
     <h2>Publications</h2>
     <ol class="publication-list reveal-children">
       <li>
-        <strong>Gupta, Aayush</strong>, Dey, Souvik, Hicks, Alan, and Zhou, Huan-Xiang (2022). Artificial intelligence guided conformational mining of intrinsically disordered proteins. <a href="https://www.nature.com/articles/s42003-022-03562-y#citeas">Communications Biology</a>, 5, 610. <a href="/files/ai_idp.pdf">PDF</a>
+        <span class="publication-year">2022</span>
+        <strong>Gupta, Aayush</strong>, Dey, Souvik, Hicks, Alan, and Zhou, Huan-Xiang. Artificial intelligence guided conformational mining of intrinsically disordered proteins. <a href="https://www.nature.com/articles/s42003-022-03562-y#citeas">Communications Biology</a>, 5, 610. <a href="/files/ai_idp.pdf">PDF</a>
       </li>
       <li>
-        <strong>Gupta, Aayush</strong> and Zhou, Huan-Xiang (2021). A machine learning-enabled pipeline for large-scale virtual drug screening. <a href="https://pubs.acs.org/doi/10.1021/acs.jcim.1c00710">Journal of Chemical Information and Modeling</a>, 61(9), 4236-4244. <a href="/files/jcim.pdf">PDF</a>
+        <span class="publication-year">2021</span>
+        <strong>Gupta, Aayush</strong> and Zhou, Huan-Xiang. A machine learning-enabled pipeline for large-scale virtual drug screening. <a href="https://pubs.acs.org/doi/10.1021/acs.jcim.1c00710">Journal of Chemical Information and Modeling</a>, 61(9), 4236-4244. <a href="/files/jcim.pdf">PDF</a>
       </li>
       <li>
-        <strong>Gupta, Aayush</strong> and Zhou, Huan-Xiang (2020). Profiling SARS-CoV-2 main protease binding to repurposed drugs using molecular dynamics simulations in classical and neural network-trained force fields. <a href="https://pubs.acs.org/doi/abs/10.1021/acscombsci.0c00140">ACS Combinatorial Science</a>, 22(12), 826-832. <a href="/files/acscomb.pdf">PDF</a>
+        <span class="publication-year">2020</span>
+        <strong>Gupta, Aayush</strong> and Zhou, Huan-Xiang. Profiling SARS-CoV-2 main protease binding to repurposed drugs using molecular dynamics simulations in classical and neural network-trained force fields. <a href="https://pubs.acs.org/doi/abs/10.1021/acscombsci.0c00140">ACS Combinatorial Science</a>, 22(12), 826-832. <a href="/files/acscomb.pdf">PDF</a>
       </li>
       <li>
-        <strong>Gupta, Aayush</strong> (2020). Profiling molecular simulations of SARS-CoV-2 main protease binding to repurposed drugs using neural network force fields. <a href="https://chemrxiv.org/engage/chemrxiv/article-details/60c753e33a3df4df8f77fae6">ChemRxiv</a>
+        <span class="publication-year">2020</span>
+        <strong>Gupta, Aayush</strong>. Profiling molecular simulations of SARS-CoV-2 main protease binding to repurposed drugs using neural network force fields. <a href="https://chemrxiv.org/engage/chemrxiv/article-details/60c753e33a3df4df8f77fae6">ChemRxiv</a>
       </li>
       <li>
-        <strong>Gupta, Aayush</strong> and Arora, Jyotsna S. (2017). DFT evidence of unforeseen bending in linearly fused polycyclic rings of hexasilabenzenoids. <a href="https://www.sciencedirect.com/science/article/abs/pii/S2210271X16304492">Computational and Theoretical Chemistry</a>, 1099, 87-91. <a href="/files/Silicene.pdf">PDF</a>
+        <span class="publication-year">2017</span>
+        <strong>Gupta, Aayush</strong> and Arora, Jyotsna S. DFT evidence of unforeseen bending in linearly fused polycyclic rings of hexasilabenzenoids. <a href="https://www.sciencedirect.com/science/article/abs/pii/S2210271X16304492">Computational and Theoretical Chemistry</a>, 1099, 87-91. <a href="/files/Silicene.pdf">PDF</a>
       </li>
     </ol>
   </section>

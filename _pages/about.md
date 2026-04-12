@@ -13,33 +13,56 @@ redirect_from:
       <img src="/images/aayu1.jpeg" alt="Aayush Gupta">
       <div class="hero-photo-notes" aria-hidden="true">
         <span class="hero-photo-note">AI for molecular design</span>
-        <span class="hero-photo-note">Boston · Vida Vinci</span>
+        <span class="hero-photo-note">Boston · Computational Chemistry</span>
       </div>
     </div>
     <div class="hero-body">
-      <div class="hero-kicker" aria-label="Areas of focus">
-        <span>AI for Science</span>
-        <span>Computational Chemistry</span>
-        <span>Drug Discovery</span>
-      </div>
-      <div class="hero-title-stack">
-        <h1 class="hero-title">Aayush Gupta</h1>
-        <p class="hero-subtitle">Scientist II, Machine Learning at Vida Vinci</p>
-      </div>
-      <p class="hero-lead">I build machine learning and computational chemistry systems for drug discovery — spanning peptide modalities, protein binder design, molecular simulation, ADME prediction, and high-throughput screening. My work sits between chemistry, physics, and AI.</p>
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <div class="hero-kicker" aria-label="Areas of focus">
+            <span>AI for Science</span>
+            <span>Computational Chemistry</span>
+            <span>Drug Discovery</span>
+          </div>
+          <div class="hero-title-stack">
+            <h1 class="hero-title">Aayush Gupta</h1>
+          </div>
+          <p class="hero-lead">I build machine learning and computational chemistry systems for drug discovery — spanning peptide modalities, protein binder design, molecular simulation, ADME prediction, and high-throughput screening. My work sits between chemistry, physics, and AI.</p>
 
-      <div class="cta-row">
-        <a class="button-link button-link--primary" href="/cv/">View CV</a>
-        <a class="button-link button-link--accent" href="/research/">Explore Experience</a>
-        <a class="button-link" href="https://www.linkedin.com/in/aaayushg">LinkedIn</a>
-        <a class="button-link" href="https://github.com/aaayushg">GitHub</a>
-      </div>
+          <div class="cta-row">
+            <a class="button-link button-link--primary" href="/cv/">View CV</a>
+            <a class="button-link button-link--accent" href="/research/">Explore Experience</a>
+            <a class="button-link" href="https://www.linkedin.com/in/aaayushg">LinkedIn</a>
+            <a class="button-link" href="https://github.com/aaayushg">GitHub</a>
+          </div>
 
-      <ul class="hero-facts">
-        <li>10+ years across academia &amp; industry</li>
-        <li>AI/ML, molecular simulation &amp; cheminformatics</li>
-        <li>PhD in Computational Chemistry, UIC</li>
-      </ul>
+          <ul class="hero-facts">
+            <li>10+ years across academia &amp; industry</li>
+            <li>AI/ML, molecular simulation &amp; cheminformatics</li>
+            <li>PhD in Computational Chemistry, UIC</li>
+          </ul>
+        </div>
+
+        <aside class="hero-spotlight" aria-label="Current chapter">
+          <p class="hero-spotlight__label">Current Chapter</p>
+          <h2 class="hero-spotlight__title">Designing AI systems that help scientists decide faster.</h2>
+          <ul class="hero-spotlight__list">
+            <li>ML representations for peptide and small-molecule programs</li>
+            <li>Protein binder design and uncertainty-aware ranking workflows</li>
+            <li>Scientific tooling that bridges modeling, simulation, and experimental teams</li>
+          </ul>
+          <div class="hero-spotlight__stats">
+            <div>
+              <span class="hero-spotlight__value">Boston</span>
+              <span class="hero-spotlight__meta">based</span>
+            </div>
+            <div>
+              <span class="hero-spotlight__value">AI x Chem</span>
+              <span class="hero-spotlight__meta">focus</span>
+            </div>
+          </div>
+        </aside>
+      </div>
     </div>
   </section>
 

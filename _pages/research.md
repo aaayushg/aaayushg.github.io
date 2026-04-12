@@ -23,8 +23,9 @@ author_profile: false
     <h2>Recent roles</h2>
     <div class="timeline reveal-children">
       <div class="timeline-item">
-        <div class="timeline-header">
-          <span class="timeline-role">Scientist II, Machine Learning · Vida Vinci Inc</span>
+        <div class="timeline-header timeline-header--stacked">
+          <span class="timeline-kicker">Vida Vinci Inc</span>
+          <span class="timeline-role">Scientist II, Machine Learning</span>
           <span class="timeline-meta">Boston · Jul 2025 – present</span>
         </div>
         <ul class="note-list">
@@ -36,8 +37,9 @@ author_profile: false
       </div>
 
       <div class="timeline-item">
-        <div class="timeline-header">
-          <span class="timeline-role">Senior Scientist, Computational Chemistry · DeepCure Inc</span>
+        <div class="timeline-header timeline-header--stacked">
+          <span class="timeline-kicker">DeepCure Inc</span>
+          <span class="timeline-role">Senior Scientist, Computational Chemistry</span>
           <span class="timeline-meta">Nov 2023 – May 2025</span>
         </div>
         <ul class="note-list">
@@ -49,8 +51,9 @@ author_profile: false
       </div>
 
       <div class="timeline-item">
-        <div class="timeline-header">
-          <span class="timeline-role">AI Research Scientist, Computational Chemistry · Exscientia Inc</span>
+        <div class="timeline-header timeline-header--stacked">
+          <span class="timeline-kicker">Exscientia Inc</span>
+          <span class="timeline-role">AI Research Scientist, Computational Chemistry</span>
           <span class="timeline-meta">Mar 2022 – Nov 2023</span>
         </div>
         <ul class="note-list">
@@ -61,8 +64,9 @@ author_profile: false
       </div>
 
       <div class="timeline-item">
-        <div class="timeline-header">
-          <span class="timeline-role">Research Intern · Schrödinger Inc</span>
+        <div class="timeline-header timeline-header--stacked">
+          <span class="timeline-kicker">Schrödinger Inc</span>
+          <span class="timeline-role">Research Intern</span>
           <span class="timeline-meta">New York City · Summer 2019</span>
         </div>
         <ul class="note-list">
