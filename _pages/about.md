@@ -62,10 +62,14 @@ redirect_from:
     </div>
   </section>
 
-  <section class="section-band reveal">
-    <p class="section-label">Snapshot</p>
-    <div class="metric-grid reveal-children">
-      <div class="metric-card">
+  <section class="section-band section-band--expansive home-snapshot reveal">
+    <div class="home-snapshot__intro reveal">
+      <p class="section-label">Snapshot</p>
+      <h2>Scientific depth, model-building rigor, and product-facing execution</h2>
+      <p class="section-lead">I work in the gap between research ambition and operational usefulness: building systems that help chemistry teams rank molecules, design experiments, and move with more confidence.</p>
+    </div>
+    <div class="metric-grid metric-grid--expanded reveal-children">
+      <div class="metric-card metric-card--featured">
         <span class="metric-value">3</span>
         <span class="metric-label">Industry roles across Vida Vinci, DeepCure, and Exscientia</span>
       </div>
@@ -107,43 +111,45 @@ redirect_from:
     </article>
   </section>
 
-  <section class="section-card reveal">
-    <p class="section-label">Selected Highlights</p>
-    <h2>Work I am proud of</h2>
-    <div class="timeline reveal-children">
-      <div class="timeline-item">
-        <div class="timeline-header">
-          <span class="timeline-role">Vida Vinci</span>
-          <span class="timeline-meta">Scientist II, Machine Learning · Jul 2025 – present</span>
-        </div>
-        <ul class="note-list">
-          <li>Built ML-cheminformatics encoder representations for novel peptide modalities and predictive ADME models grounded in experimental data.</li>
-          <li>Worked on de novo protein drug binder design, Free-Wilson analysis, and uncertainty-aware compound ranking.</li>
-          <li>Implemented BIBD and CP-SAT based library design workflows for synthesis-ready candidate generation.</li>
-        </ul>
+  <section class="section-card section-card--showcase reveal">
+    <div class="section-card__heading">
+      <div>
+        <p class="section-label">Selected Highlights</p>
+        <h2>Work I am proud of</h2>
       </div>
-      <div class="timeline-item">
-        <div class="timeline-header">
-          <span class="timeline-role">DeepCure</span>
-          <span class="timeline-meta">Senior Scientist, Computational Chemistry · Nov 2023 – May 2025</span>
-        </div>
+      <p class="section-lead">A few representative chapters where machine learning, simulation, and scientific tooling came together in ways that materially changed how teams operated.</p>
+    </div>
+    <div class="highlights-grid reveal-children">
+      <article class="highlight-card">
+        <p class="highlight-card__company">Vida Vinci</p>
+        <h3>Machine learning for peptide and protein design</h3>
+        <p class="highlight-card__meta">Scientist II, Machine Learning · Jul 2025 – present</p>
         <ul class="note-list">
-          <li>Built an end-to-end OpenMM MD + ABFE/RBFE pipeline with in-house Amber preparation.</li>
-          <li>Engineered a high-throughput MD screening technique with ~300× speedup.</li>
-          <li>Improved internal AI and computational chemistry platforms.</li>
+          <li>Built ML-cheminformatics encoder representations and predictive ADME models grounded in internal data.</li>
+          <li>Worked on protein binder design, Free-Wilson analysis, and uncertainty-aware ranking workflows.</li>
+          <li>Implemented BIBD and CP-SAT based library design for synthesis-ready candidate generation.</li>
         </ul>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-header">
-          <span class="timeline-role">Exscientia</span>
-          <span class="timeline-meta">AI Research Scientist · Mar 2022 – Nov 2023</span>
-        </div>
+      </article>
+      <article class="highlight-card">
+        <p class="highlight-card__company">DeepCure</p>
+        <h3>High-throughput molecular simulation at scale</h3>
+        <p class="highlight-card__meta">Senior Scientist, Computational Chemistry · Nov 2023 – May 2025</p>
         <ul class="note-list">
-          <li>Bridged medicinal chemistry and ML teams on ADMET, active learning, and linker-generation workflows.</li>
-          <li>Led work within the PhysicsML team and contributed to EXS-NNP.</li>
-          <li>Helped turn high-impact modeling work into usable internal product capability.</li>
+          <li>Built an end-to-end OpenMM MD + ABFE/RBFE platform with in-house Amber preparation.</li>
+          <li>Engineered a high-throughput MD screening method that improved throughput by roughly 300×.</li>
+          <li>Strengthened internal AI and computational chemistry platforms for molecule and pose quality.</li>
         </ul>
-      </div>
+      </article>
+      <article class="highlight-card">
+        <p class="highlight-card__company">Exscientia</p>
+        <h3>Bridging medicinal chemistry and AI product work</h3>
+        <p class="highlight-card__meta">AI Research Scientist · Mar 2022 – Nov 2023</p>
+        <ul class="note-list">
+          <li>Worked across ML and medicinal chemistry teams on ADMET, active learning, and linker generation workflows.</li>
+          <li>Led work inside the PhysicsML team and contributed to product direction.</li>
+          <li>Helped deliver EXS-NNP and translate advanced modeling into usable capability.</li>
+        </ul>
+      </article>
     </div>
   </section>
 
