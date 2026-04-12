@@ -95,6 +95,11 @@ body::before {
   padding-right: clamp(1rem, 2vw, 2rem);
 }
 
+#main.page-shell {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #main.page--home-shell {
   max-width: min(1520px, calc(100vw - 2rem));
   padding-left: clamp(1rem, 2vw, 2rem);
@@ -136,6 +141,26 @@ body::before {
   width: 100%;
 }
 
+.page--content-shell .page--content-frame,
+.archive--content-shell .archive--content-frame {
+  display: block;
+  float: none !important;
+  clear: both;
+  width: 100% !important;
+  max-width: 1320px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.page--content-shell .page--content-frame .page__inner-wrap,
+.archive--content-shell .archive--content-frame {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @include breakpoint($large) {
   #main {
     margin-left: auto;
@@ -147,6 +172,15 @@ body::before {
   .page__related {
     float: none !important;
     clear: both;
+    width: 100% !important;
+    max-width: 1320px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .page--content-shell .page--content-frame,
+  .archive--content-shell .archive--content-frame {
+    float: none !important;
     width: 100% !important;
     max-width: 1320px;
     margin-left: auto !important;
