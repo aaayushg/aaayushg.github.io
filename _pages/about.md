@@ -93,7 +93,6 @@ redirect_from:
         <ul class="note-list">
           <li>Built ML-cheminformatics encoder representations for novel peptide modalities and predictive ADME models grounded in experimental data.</li>
           <li>Worked on de novo protein drug binder design, Free-Wilson analysis, and uncertainty-aware compound ranking for better decision support.</li>
-          <li>Implemented BIBD and CP-SAT based library design workflows for synthesis-ready candidate generation.</li>
         </ul>
       </div>
       <div class="timeline-item">
