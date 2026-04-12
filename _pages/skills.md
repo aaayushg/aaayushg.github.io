@@ -2,23 +2,113 @@
 layout: archive
 title: "Skills"
 permalink: /skills/
-author_profile: true
+author_profile: false
 ---
 
-**AI/ML & Data Science Skills:** 
-* AI & Machine Learning: Equivariant GraphNNs, Deep Learning, Generative Autoencoders & Adversarial Network (GAN), Diffusion Models, LLMs, Clustering, SVM, Random Forest.
-* Python Tools & Modules: PyTorch, Tensorflow, Pandas, NumPy, Keras,, Sklearn, Seaborn, Matplotlib, SciPy.
+<div class="aayush-page">
+	<section class="grid-panels">
+		<article class="section-card">
+			<p class="section-label">AI and Data</p>
+			<h2>Modeling toolkit</h2>
+			<div class="tag-list">
+				<span class="skill-pill">Equivariant Graph Neural Networks</span>
+				<span class="skill-pill">Deep Learning</span>
+				<span class="skill-pill">GANs</span>
+				<span class="skill-pill">Diffusion Models</span>
+				<span class="skill-pill">LLMs</span>
+				<span class="skill-pill">CNNs</span>
+				<span class="skill-pill">RNNs</span>
+				<span class="skill-pill">Transformers</span>
+				<span class="skill-pill">Clustering</span>
+				<span class="skill-pill">SVM</span>
+				<span class="skill-pill">Random Forests</span>
+			</div>
+		</article>
 
-**Computer Enthusiast:** 
-* Scientific Programming: Python, bash, tcl/tk, slurm/pbs scripts.
-* Highlighted Skills: AWS and HPC computing, GIT, DVC; Data Version Control (Iterative AI)
-* Linux architecture (Networking, Security and File server): Admin role in troubleshooting system-related issues in PhD research group: Designed LDAP-based client-server protocol (400 TB file server+10 clients) •
+		<article class="section-card">
+			<p class="section-label">Python Stack</p>
+			<h2>Libraries I use often</h2>
+			<div class="tag-list">
+				<span class="skill-pill">PyTorch</span>
+				<span class="skill-pill">TensorFlow</span>
+				<span class="skill-pill">Keras</span>
+				<span class="skill-pill">Pandas</span>
+				<span class="skill-pill">NumPy</span>
+				<span class="skill-pill">SciPy</span>
+				<span class="skill-pill">Scikit-learn</span>
+				<span class="skill-pill">Matplotlib</span>
+				<span class="skill-pill">Seaborn</span>
+			</div>
+		</article>
+	</section>
 
-**Simulation Packages:**
+	<section class="grid-panels">
+		<article class="section-card">
+			<p class="section-label">Scientific Computing</p>
+			<h2>Engineering and systems</h2>
+			<ul class="note-list">
+				<li>Programming in Python, Bash, and Tcl/Tk with day-to-day HPC scripting and workflow automation.</li>
+				<li>Comfortable with AWS, Linux systems, Git, DVC, SLURM, and PBS environments.</li>
+				<li>Built and administered LDAP-based client-server infrastructure for a 400 TB file server setup during doctoral research.</li>
+			</ul>
+		</article>
 
-* APIs: Atomic Simulation Environment (ASE), BioSimSpace, OpenMM, BioPython, MDTraj, AlphaFold
-* Schrödinger Suite: Potentially explored backend workflow of various packages during the summer internship.
-* Cheminformatics: OpeneyeKit, RDKit, OpenBabel, PaDel, Balloon, and Confab
-* Simulation Packages: MD: NAMD, AMBER, DL-POLY, Gromacs, Desmond • QM: Siesta, Gaussian16, Orca, Terachem, GAMESS, VASP, USPEX, Quantum-Espresso • Docking: Autodock, Glide, Gold, OEDocking.
-* Visualization: VMD, Pymol, Chimera, Molden, Gabedit, Gaussview, VESTA, Avogadro, Mercury.
-* Biophysics skills: Protein purification, X-ray crystallography, and CyroEM
+		<article class="section-card">
+			<p class="section-label">Molecular Tooling</p>
+			<h2>Simulation and analysis platforms</h2>
+			<div class="tag-list">
+				<span class="skill-pill">OpenMM</span>
+				<span class="skill-pill">AMBER</span>
+				<span class="skill-pill">NAMD</span>
+				<span class="skill-pill">Gromacs</span>
+				<span class="skill-pill">Desmond</span>
+				<span class="skill-pill">Psi4</span>
+				<span class="skill-pill">Gaussian16</span>
+				<span class="skill-pill">Orca</span>
+				<span class="skill-pill">VASP</span>
+				<span class="skill-pill">Quantum Espresso</span>
+				<span class="skill-pill">OEDock</span>
+				<span class="skill-pill">Smina</span>
+				<span class="skill-pill">AutoDock Vina</span>
+				<span class="skill-pill">Glide</span>
+				<span class="skill-pill">GOLD</span>
+				<span class="skill-pill">DiffDock</span>
+			</div>
+		</article>
+	</section>
+
+	<section class="grid-panels">
+		<article class="section-card">
+			<p class="section-label">Cheminformatics and APIs</p>
+			<h2>Production-friendly interfaces</h2>
+			<div class="tag-list">
+				<span class="skill-pill">RDKit</span>
+				<span class="skill-pill">OpenEye Toolkit</span>
+				<span class="skill-pill">Chemaxon</span>
+				<span class="skill-pill">OpenBabel</span>
+				<span class="skill-pill">PaDel</span>
+				<span class="skill-pill">ProLIF</span>
+				<span class="skill-pill">ASE</span>
+				<span class="skill-pill">MDTraj</span>
+				<span class="skill-pill">MDAnalysis</span>
+				<span class="skill-pill">BioPython</span>
+			</div>
+		</article>
+
+		<article class="section-card">
+			<p class="section-label">Structural Biology</p>
+			<h2>Adjacent biophysics expertise</h2>
+			<div class="tag-list">
+				<span class="skill-pill">AlphaFold</span>
+				<span class="skill-pill">RosettaFold</span>
+				<span class="skill-pill">Protein Purification</span>
+				<span class="skill-pill">X-ray Crystallography</span>
+				<span class="skill-pill">Cryo-EM</span>
+				<span class="skill-pill">PyMOL</span>
+				<span class="skill-pill">VMD</span>
+				<span class="skill-pill">Chimera</span>
+				<span class="skill-pill">GaussView</span>
+			</div>
+		</article>
+	</section>
+</div>

@@ -1,20 +1,23 @@
 # main links links
 main:
-  - title: "CV"
-    url: /files/Aayush_Resume.pdf
-    
-  - title: "Research"
+  - title: "About"
+    url: /
+
+  - title: "Experience"
     url: /research/
-    
+
   - title: "Skills"
     url: /skills/
-    
+
   - title: "Publications"
     url: /publications/
 
-  - title: "Professional"
+  - title: "Service"
     url: /teaching/
-    
-    
+
+  - title: "CV"
+    url: /cv/
+
+
 
 

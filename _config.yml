@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Aayush Gupta, PhD"
+title                    : "Aayush Gupta"
 title_separator          : "-"
 name                     : &name "Aayush Gupta"
-description              : &description "personal description"
+description              : &description "Scientist II in machine learning working at the intersection of AI, computational chemistry, and drug discovery."
 url                      : https://aaayushg.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "aaayushg/aaayushg.github.io"
@@ -82,14 +82,14 @@ analytics:
 author:
   name             : "Aayush Gupta, PhD"
   avatar           : "aayushgupta.jpeg"
-  bio              : "Computational  & Quantum Chemist | Protein Biophysicist | Drug Discoverer | Machine Learner | Enterpreneur"
-  location         : "Chicago, IL, USA"
-  employer         :
+  bio              : "Scientist II, Machine Learning | AI for Science | Computational Chemistry"
+  location         : "Boston, MA"
+  employer         : "Vida Vinci Inc"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=DwxU1sYAAAAJ&hl=en"
-  email            :
+  email            : "aayush.ict@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  uri              : "https://aaayushg.github.io"
   bitbucket        :
   codepen          :
   dribbble         :

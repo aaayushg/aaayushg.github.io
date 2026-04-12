@@ -1,65 +1,157 @@
 ---
 permalink: /
-#layout: archive
 excerpt: "About me"
-author_profile: true
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<p align="center">
-  <img src="https://aaayushg.github.io/images/aayu1.jpeg?raw=true" alt="Photo" style="width: 500px;"/> 
-</p>
+<div class="aayush-home">
+  <section class="hero-panel">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">AI for Science • Computational Chemistry • Drug Discovery</p>
+        <h1 class="hero-title">Aayush Gupta</h1>
+        <p class="hero-subtitle">Scientist II, Machine Learning at Vida Vinci</p>
+        <p class="hero-lead">I build machine learning and computational chemistry systems for drug discovery, spanning peptide modalities, protein binder design, molecular simulation, ADME prediction, and high-throughput screening. My work sits between chemistry, physics, and AI, with one foot in rigorous scientific modeling and the other in production-facing research infrastructure.</p>
 
-<p align="center">
-  <strong>Senior Scientist (AI and Computational Chemistry) </strong> at <strong><a href="https://www.deepcure.ai/">DeepCure, Inc</a></strong>
-</p>
+        <div class="cta-row">
+          <a class="button-link button-link--primary" href="/cv/">View CV</a>
+          <a class="button-link button-link--accent" href="/research/">Explore Experience</a>
+          <a class="button-link" href="https://www.linkedin.com/in/aaayushg">LinkedIn</a>
+          <a class="button-link" href="https://github.com/aaayushg">GitHub</a>
+        </div>
 
-<p align="center">
-  Previous AI Research Scientist at <strong><a href="https://www.exscientia.ai/">Exscientia, Inc</a></strong>
+        <ul class="hero-facts">
+          <li>10+ years across academia and industry</li>
+          <li>AI/ML, molecular simulation, and cheminformatics</li>
+          <li>PhD in Computational Chemistry from UIC</li>
+        </ul>
+      </div>
 
-<p align="center">
-  Ex-Research Fellow at <a href="https://www.schrodinger.com/">Schrodinger, Inc</a>, MIPT-Russia, IISc-Bengaluru, BARC-Mumbai, CSIR, India
+      <div class="hero-portrait">
+        <img src="/images/aayu1.jpeg" alt="Portrait of Aayush Gupta">
+      </div>
+    </div>
+  </section>
 
-<p align="center">
-  Researcher with a <strong>Ph.D.</strong> from <strong>University of Illinois</strong>
-</p>
+  <section class="section-band">
+    <p class="section-label">Snapshot</p>
+    <div class="metric-grid">
+      <div class="metric-card">
+        <span class="metric-value">3</span>
+        <span class="metric-label">Industry roles across Vida Vinci, DeepCure, and Exscientia</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-value">5+</span>
+        <span class="metric-label">Publications and preprints in AI-driven computational chemistry</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-value">300x</span>
+        <span class="metric-label">Speedup delivered in high-throughput MD screening at DeepCure</span>
+      </div>
+    </div>
+  </section>
 
-Aayush is an innovative AI computational chemist with over 9 years of combined academic and industrial experience.
-His research focus is at the nexus of AI, Physics and Chemistry, he seamlessly integrates AI into advanced quantum
-and classical molecular modeling. He is proficient in machine learning, programming, and data science, and is well-
-versed with AWS, Linux servers, and GPUs. Aayush has a strong background in developing ML-based computational
-workflows for solving molecular properties and protein-drug modeling. He has consistently displayed entrepreneurial
-and independent research skills throughout his career. He has a proven track record of publishing as a first author in
-peer-reviewed journals, showcasing his ability to generate new ideas, develop prototypes, and document his findings.
-Passionate about learning and innovation, Aayush is committed to pushing “AI for Science” forward.<br/>
-<br/>
-When Aayush is not solving problems in computational chemistry, he plays poker (Champion @ Schrodinger Poker Night'2019) and watches/reads Japanese animes/mangas. Aayush is also a licensed drone pilot who creates aesthetic videos (see here and here). He also mentions himself self proclaimed chef - love to fuse-cook different cuisines. In sports, he loves to play badminton and a frequent marathon runner.<br/>
-<br/>
+  <section class="grid-panels">
+    <article class="section-card">
+      <p class="section-label">Current Focus</p>
+      <h2>Building practical AI for molecular decisions</h2>
+      <p>I focus on systems that help scientists rank, design, and test molecules with more confidence. That includes ML-based molecular representations, protein binder design workflows, simulation pipelines, uncertainty-aware selection strategies, and infrastructure that turns promising methods into repeatable research tools.</p>
+      <div class="tag-list">
+        <span class="tag">Machine Learning</span>
+        <span class="tag">Computational Chemistry</span>
+        <span class="tag">Cheminformatics</span>
+        <span class="tag">Protein Design</span>
+        <span class="tag">Molecular Dynamics</span>
+        <span class="tag">ADME Modeling</span>
+      </div>
+    </article>
 
-<p align="center">
-  <strong>Highlighted Research</strong><br/>
-</p>
+    <article class="section-card">
+      <p class="section-label">Career Arc</p>
+      <h2>From physics-grounded chemistry to product-minded AI</h2>
+      <p>My path runs from quantum chemistry and molecular modeling to production-facing machine learning for biotech. I have worked across research-heavy environments and fast-moving startup teams, which shaped how I think about scientific rigor, tooling quality, and collaboration with medicinal chemists and ML teams.</p>
+      <div class="inline-link-row">
+        <a href="https://scholar.google.com/citations?user=DwxU1sYAAAAJ&hl=en">Google Scholar</a>
+        <a href="mailto:aayush.ict@gmail.com">aayush.ict@gmail.com</a>
+        <a href="https://aaayushg.github.io/files/Aayush_Resume.pdf">Download resume</a>
+      </div>
+    </article>
+  </section>
 
-<strong>Gupta, Aayush</strong>,Dey, Souvik, Hicks, Alan, and Zhou, Huan-Xiang. (2021). Artificial intelligence guided conformational mining of intrinsically disordered proteins. [Nature Communications Biology](https://doi.org/10.1038/s42003-022-03562-y) <br/>
-<a href="https://aaayushg.github.io/files/ai_idp.pdf">[PDF]</a><br/>
-<a href="https://aaayushg.github.io/publications/">More publication</a><br/>
-<br/>
+  <section class="section-card">
+    <p class="section-label">Selected Highlights</p>
+    <h2>Work I am proud of</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-header">
+          <span class="timeline-role">Vida Vinci</span>
+          <span class="timeline-meta">Scientist II, Machine Learning • Jul 2025 to present</span>
+        </div>
+        <ul class="note-list">
+          <li>Built ML-cheminformatics encoder representations for novel peptide modalities and predictive ADME models grounded in experimental data.</li>
+          <li>Worked on de novo protein drug binder design, Free-Wilson analysis, and uncertainty-aware compound ranking for better decision support.</li>
+          <li>Implemented BIBD and CP-SAT based library design workflows for synthesis-ready candidate generation.</li>
+        </ul>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-header">
+          <span class="timeline-role">DeepCure</span>
+          <span class="timeline-meta">Senior Scientist, Computational Chemistry • Nov 2023 to May 2025</span>
+        </div>
+        <ul class="note-list">
+          <li>Built an end-to-end OpenMM MD plus ABFE/RBFE pipeline with in-house Amber preparation, removing external vendor dependence.</li>
+          <li>Engineered a high-throughput MD screening technique with roughly 300x speedup.</li>
+          <li>Improved internal AI and computational chemistry platforms to increase generated-molecule and docking-pose quality.</li>
+        </ul>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-header">
+          <span class="timeline-role">Exscientia</span>
+          <span class="timeline-meta">AI Research Scientist, Computational Chemistry • Mar 2022 to Nov 2023</span>
+        </div>
+        <ul class="note-list">
+          <li>Bridged medicinal chemistry and ML teams on ADMET, active learning, and linker-generation workflows.</li>
+          <li>Led work within the PhysicsML team and contributed to EXS-NNP, a GNN-based approach that outperformed ANI on coupled-cluster data.</li>
+          <li>Helped turn high-impact modeling work into usable internal product capability.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-<p align="center">
-  <strong>Awards & Activities:</strong><br/>
-</p>
-  
-* Recipient of Chancellor's Student Service and Leadership Award at UIC (Apr’20).<br/>
-* Best TA Award for General Chemistry II Discussion & Lab (CHEM124/125) (May’18). <br/>
-* Received “GSC Travel Award” and “Student Presenter Award” at UIC (2017). <br/>
-* Organized <a href="https://biophysicschicago.webnode.com/">“Chicago Biophysical Networking Event”</a> at UIC on (Sep’19).<br/>
-* Active mentor at <a href="https://scienceclub.northwestern.edu/">Science Club</a> by Northwestern University.<br/>
-* Panellist at the event “Graduate School Reality Check” at ACS meeting at San Francisco.<br/>
-* Shortlisted among the invitees to attend “Indian Science Academies Workshop” BIT-Mesra, Deoghar. <br/>
-* Awarded <a href="http://5top100.ru/">5top100</a> scholarship to work at MIPT, Moscow, Russia. (% intake : 5).<br/>
-* Awarded Indian Academies of Sciences - Summer Research Fellowship. (% intake : 2).<br/>
-* Diploma in Computer Application (DCA) from Public University, India with A+ grade.<br/>
-* Presented topic “Darwin Awards” at IGNITE (20 slides in 5 mins).<br/>
-* Invited speaker at Freshers event at ICT.<br/>
+  <section class="grid-panels">
+    <article class="section-card">
+      <p class="section-label">Education</p>
+      <h2>Training</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <span class="timeline-role">University of Illinois at Chicago</span>
+            <span class="timeline-meta">PhD, Computational Chemistry • MS, Chemistry</span>
+          </div>
+          <p>Doctoral work under Prof. Huan-Xiang Zhou focused on machine learning methods for advancing computational chemistry.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <span class="timeline-role">Institute of Chemical Technology, Mumbai</span>
+            <span class="timeline-meta">BTech, Chemical Technology</span>
+          </div>
+          <p>Built the early foundation in chemistry, materials, simulation, and research that later expanded into AI-driven molecular science.</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="section-card">
+      <p class="section-label">Research Theme</p>
+      <h2>Where my work creates leverage</h2>
+      <ul class="note-list">
+        <li>Turning advanced scientific methods into workflows that research teams can actually use.</li>
+        <li>Connecting statistical learning with physics-based simulation instead of treating them as separate worlds.</li>
+        <li>Designing decision systems that help rank compounds, understand uncertainty, and move faster without losing rigor.</li>
+        <li>Working comfortably across code, experiments, collaboration, and communication with multidisciplinary teams.</li>
+      </ul>
+    </article>
+  </section>
+</div>
