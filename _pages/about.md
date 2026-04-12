@@ -8,14 +8,24 @@ redirect_from:
 ---
 
 <div class="aayush-home">
-  <section class="hero-panel">
+  <section class="hero-panel hero-panel--immersive">
     <div class="hero-photo-banner">
       <img src="/images/aayu1.jpeg" alt="Aayush Gupta">
+      <div class="hero-photo-notes" aria-hidden="true">
+        <span class="hero-photo-note">AI for molecular design</span>
+        <span class="hero-photo-note">Boston · Vida Vinci</span>
+      </div>
     </div>
     <div class="hero-body">
-      <p class="eyebrow">AI for Science · Computational Chemistry · Drug Discovery</p>
-      <h1 class="hero-title">Aayush Gupta</h1>
-      <p class="hero-subtitle">Scientist II, Machine Learning at Vida Vinci</p>
+      <div class="hero-kicker" aria-label="Areas of focus">
+        <span>AI for Science</span>
+        <span>Computational Chemistry</span>
+        <span>Drug Discovery</span>
+      </div>
+      <div class="hero-title-stack">
+        <h1 class="hero-title">Aayush Gupta</h1>
+        <p class="hero-subtitle">Scientist II, Machine Learning at Vida Vinci</p>
+      </div>
       <p class="hero-lead">I build machine learning and computational chemistry systems for drug discovery — spanning peptide modalities, protein binder design, molecular simulation, ADME prediction, and high-throughput screening. My work sits between chemistry, physics, and AI.</p>
 
       <div class="cta-row">

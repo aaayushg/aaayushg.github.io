@@ -6,6 +6,18 @@ author_profile: false
 ---
 
 <div class="aayush-page">
+  <section class="section-card page-hero reveal">
+    <p class="section-label">Selected Work</p>
+    <h2>Publications and talks at the intersection of simulation and machine learning</h2>
+    <p class="section-lead">These papers reflect a recurring theme in my work: using statistical learning and molecular physics together to make difficult biomolecular and medicinal chemistry problems more tractable.</p>
+    <div class="page-meta-list reveal-children">
+      <span>5 publications and preprints</span>
+      <span>Communications Biology</span>
+      <span>JCIM and ACS Combinatorial Science</span>
+      <span>AI-driven computational chemistry</span>
+    </div>
+  </section>
+
   <section class="section-card reveal">
     <p class="section-label">Selected Work</p>
     <h2>Publications</h2>

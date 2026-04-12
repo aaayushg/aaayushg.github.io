@@ -6,6 +6,18 @@ author_profile: false
 ---
 
 <div class="aayush-page">
+  <section class="section-card page-hero reveal">
+    <p class="section-label">Capabilities</p>
+    <h2>Technical depth across AI, cheminformatics, and scientific computing</h2>
+    <p class="section-lead">I work comfortably across modeling, simulation, engineering, and research tooling, which makes it easier to connect exploratory science with production-facing workflows.</p>
+    <div class="page-meta-list reveal-children">
+      <span>Deep learning and graph models</span>
+      <span>Molecular simulation platforms</span>
+      <span>Cheminformatics and APIs</span>
+      <span>HPC and workflow automation</span>
+    </div>
+  </section>
+
   <section class="grid-panels">
     <article class="section-card reveal">
       <p class="section-label">AI and Data</p>

@@ -6,6 +6,18 @@ author_profile: false
 ---
 
 <div class="aayush-page">
+  <section class="section-card page-hero reveal">
+    <p class="section-label">Experience</p>
+    <h2>Building drug-discovery systems across ML, simulation, and molecular design</h2>
+    <p class="section-lead">My recent work spans biotech startups and research-heavy teams, with a consistent focus on turning technically strong models and simulation methods into decisions scientists can use in practice.</p>
+    <div class="page-meta-list reveal-children">
+      <span>4 industry roles</span>
+      <span>ML + MD workflows</span>
+      <span>Biotech product context</span>
+      <span>Boston and global teams</span>
+    </div>
+  </section>
+
   <section class="section-card reveal">
     <p class="section-label">Industry</p>
     <h2>Recent roles</h2>

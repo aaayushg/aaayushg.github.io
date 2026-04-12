@@ -6,6 +6,18 @@ author_profile: false
 ---
 
 <div class="aayush-page">
+  <section class="section-card page-hero reveal">
+    <p class="section-label">Service</p>
+    <h2>Peer review, teaching, and support for scientific communities</h2>
+    <p class="section-lead">Alongside research and industry work, I have contributed through journal reviewing, laboratory instruction, and mentoring within chemistry and computational science environments.</p>
+    <div class="page-meta-list reveal-children">
+      <span>5 journals reviewed</span>
+      <span>Physical chemistry instruction</span>
+      <span>General chemistry teaching</span>
+      <span>Undergraduate mentoring</span>
+    </div>
+  </section>
+
   <section class="grid-panels">
     <article class="section-card reveal">
       <p class="section-label">Peer Review</p>

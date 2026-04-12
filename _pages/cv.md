@@ -10,10 +10,15 @@ author_profile: false
 {% include base_path %}
 
 <div class="aayush-page">
-  <section class="section-card reveal">
+  <section class="section-card page-hero reveal">
     <p class="section-label">Resume</p>
     <h2>Curriculum Vitae</h2>
     <p class="section-lead">A concise overview of my academic and professional background. Download or view the full document below.</p>
+    <div class="page-meta-list reveal-children">
+      <span>Industry and academic experience</span>
+      <span>Computational chemistry and ML</span>
+      <span>Publications, talks, and teaching</span>
+    </div>
     <div class="cta-row">
       <a href="{{ base_path }}/files/Aayush_Resume.pdf" target="_blank" class="cta-btn">Open PDF ↗</a>
       <a href="{{ base_path }}/files/Aayush_Resume.pdf" download class="cta-btn cta-btn--outline">Download PDF ↓</a>
@@ -21,7 +26,7 @@ author_profile: false
     </div>
   </section>
 
-  <section class="section-card reveal" style="margin-top:2rem;">
+  <section class="section-card reveal resume-shell">
     <iframe
       src="{{ base_path }}/files/Aayush_Resume.pdf"
       class="resume-frame reveal"
