@@ -44,6 +44,11 @@
 /* ---- Body & background ---- */
 body {
   color: $text-color;
+  font-size: 1.04rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "liga" 1, "kern" 1, "calt" 1;
   background:
     radial-gradient(ellipse at 10% 0%, rgba(251, 191, 36, 0.10), transparent 40%),
     radial-gradient(ellipse at 90% 0%, rgba(14, 165, 233, 0.08), transparent 35%),
@@ -62,6 +67,81 @@ body::before {
   pointer-events: none;
   opacity: 0.35;
   z-index: -1;
+}
+
+p,
+li,
+dd,
+blockquote,
+.hero-lead,
+.section-lead,
+.section-card p,
+.metric-label,
+.note-list li,
+.publication-list li {
+  font-family: $serif;
+  font-size: 1.04rem;
+  line-height: 1.78;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.page__title,
+.hero-title,
+.section-card h2,
+.section-card h3,
+.section-band h2,
+.timeline-role,
+.metric-value {
+  font-family: $sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.greedy-nav a,
+.section-label,
+.eyebrow,
+.hero-kicker span,
+.hero-photo-note,
+.button-link,
+.cta-btn,
+.page-meta-list span,
+.hero-facts li,
+.tag,
+.skill-pill,
+.timeline-meta,
+.inline-link-row,
+.metric-label {
+  font-family: $sans-serif;
+}
+
+.page__content {
+  font-size: 1.02rem;
+}
+
+.page__content p,
+.page__content li,
+.page__content dd {
+  max-width: 70ch;
+}
+
+.page__content a,
+.section-card a,
+.publication-list a,
+.inline-link-row a {
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.14em;
+}
+
+.page__content a:hover,
+.section-card a:hover,
+.publication-list a:hover,
+.inline-link-row a:hover {
+  text-decoration-thickness: 0.11em;
 }
 
 /* ---- Masthead ---- */
@@ -89,7 +169,9 @@ body::before {
 .greedy-nav a {
   position: relative;
   font-weight: 600;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
   transition: color 0.25s ease;
 }
 
@@ -126,8 +208,8 @@ body::before {
 .page__title {
   margin-bottom: 1.5rem;
   font-size: clamp(2rem, 4vw, 3rem);
-  line-height: 1.05;
-  letter-spacing: -0.03em;
+  line-height: 0.98;
+  letter-spacing: -0.05em;
 }
 
 .page__content > h2,
@@ -429,7 +511,7 @@ body::before {
   color: #10213b;
   font-size: clamp(2.8rem, 7vw, 4.8rem);
   line-height: 0.94;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.065em;
   animation: fadeUp 0.8s 0.2s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
@@ -446,6 +528,7 @@ body::before {
   font-family: $sans-serif;
   font-size: clamp(0.95rem, 2vw, 1.1rem);
   font-weight: 700;
+  letter-spacing: -0.02em;
   line-height: 1.35;
   animation: fadeUp 0.8s 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
@@ -643,12 +726,12 @@ body::before {
   margin-bottom: 0.65rem;
   color: #10213b;
   font-size: clamp(1.3rem, 2.8vw, 1.85rem);
-  line-height: 1.1;
-  letter-spacing: -0.03em;
+  line-height: 1.02;
+  letter-spacing: -0.045em;
 }
 
 .section-card p {
-  line-height: 1.75;
+  color: #314252;
 }
 
 .section-card p:last-child,
@@ -709,13 +792,15 @@ body::before {
   font-family: $sans-serif;
   font-size: 1.02rem;
   font-weight: 700;
-  line-height: 1.3;
+  line-height: 1.25;
 }
 
 .timeline-meta {
   color: #6b7280;
   font-family: $sans-serif;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   line-height: 1.3;
 }
 
@@ -781,6 +866,10 @@ body::before {
 
 .publication-list strong {
   color: #10213b;
+  font-family: $sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .publication-list a {
@@ -804,7 +893,10 @@ body::before {
   gap: 0.6rem 1rem;
   margin-top: 0.85rem;
   font-family: $sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .inline-link-row a {
