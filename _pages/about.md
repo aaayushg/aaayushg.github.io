@@ -24,7 +24,7 @@ redirect_from:
             <h1 class="hero-title">Aayush Gupta</h1>
             <p class="hero-bridge">Computational chemist and machine learning scientist for drug discovery.</p>
           </div>
-          <p class="hero-lead">I build machine learning and computational chemistry systems for drug discovery — spanning peptide modalities, protein binder design, molecular simulation, ADME prediction, and high-throughput screening. My work sits between chemistry, physics, and AI.</p>
+          <p class="hero-lead">I build machine learning and computational chemistry systems for drug discovery — spanning molecular representations, protein binder design, molecular simulation, ADME prediction, and high-throughput screening. My work sits between chemistry, physics, and AI.</p>
 
           <div class="cta-row">
             <a class="button-link button-link--primary" href="/cv/">View CV</a>
@@ -44,7 +44,7 @@ redirect_from:
           <p class="hero-spotlight__label">Current Chapter</p>
           <h2 class="hero-spotlight__title">Designing AI systems that help scientists decide faster.</h2>
           <ul class="hero-spotlight__list">
-            <li>ML representations for peptide and small-molecule programs</li>
+            <li>ML representations for small-molecule and biologics programs</li>
             <li>Protein binder design and uncertainty-aware ranking workflows</li>
             <li>Scientific tooling that bridges modeling, simulation, and experimental teams</li>
           </ul>
@@ -123,12 +123,12 @@ redirect_from:
     <div class="highlights-grid reveal-children">
       <article class="highlight-card">
         <p class="highlight-card__company">Vida Vinci</p>
-        <h3>Machine learning for peptide and protein design</h3>
+        <h3>Machine learning for molecular and protein design</h3>
         <p class="highlight-card__meta">Scientist II, Machine Learning · Jul 2025 – present</p>
         <ul class="note-list">
-          <li>Built ML-cheminformatics encoder representations and predictive ADME models grounded in internal data.</li>
-          <li>Worked on protein binder design, Free-Wilson analysis, and uncertainty-aware ranking workflows.</li>
-          <li>Implemented BIBD and CP-SAT based library design for synthesis-ready candidate generation.</li>
+          <li>Built molecular representations and predictive ADME models grounded in internal data.</li>
+          <li>Worked on protein binder design and uncertainty-aware ranking workflows.</li>
+          <li>Designed algorithmic library enumeration for synthesis-ready candidate generation.</li>
         </ul>
       </article>
       <article class="highlight-card">

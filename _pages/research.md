@@ -29,10 +29,9 @@ author_profile: false
           <span class="timeline-meta">Boston · Jul 2025 – present</span>
         </div>
         <ul class="note-list">
-          <li>Built ML-cheminformatics encoder representations for novel peptide modalities and trained models for experimental ADME property prediction.</li>
-          <li>Worked on de novo protein drug binder design using BoltzGen and BindCraft style workflows, alongside Free-Wilson analysis on internal data.</li>
-          <li>Implemented uncertainty estimation for compound ranking and selection.</li>
-          <li>Built BIBD and CP-SAT based algorithms for optimized, synthesis-ready library design.</li>
+          <li>Built molecular representations and trained models for experimental ADME property prediction.</li>
+          <li>Worked on de novo protein binder design and uncertainty-aware ranking workflows.</li>
+          <li>Designed algorithmic library enumeration for optimized, synthesis-ready compound sets.</li>
         </ul>
       </div>
 
@@ -86,7 +85,7 @@ author_profile: false
         <li>Implemented a generative deep learning model to guide conformational sampling of intrinsically disordered proteins and accelerate MD workflows.</li>
         <li>Developed a machine-learning enabled virtual screening pipeline against RPN11, a breast cancer drug target.</li>
         <li>Designed hybrid AI and molecular simulation workflows for SARS-CoV-2 main protease.</li>
-        <li>Explored electron transport in peptide helices and other physics-rich modeling problems under Prof. Huan-Xiang Zhou.</li>
+        <li>Explored electron transport in molecular helices and other physics-rich modeling problems under Prof. Huan-Xiang Zhou.</li>
       </ul>
       <div class="inline-link-row">
         <a href="https://github.com/aaayushg/generative_IDPs">IDP project</a>
