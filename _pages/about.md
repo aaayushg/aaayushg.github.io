@@ -12,10 +12,13 @@ redirect_from:
     <div>
       <p class="hero-eyebrow">
         <span class="hero-eyebrow__line" aria-hidden="true"></span>
-        {{ site.author.role }} · {{ site.author.employer }}
+        Machine Learning Scientist and Computational Chemist
       </p>
 
-      <h1 class="hero-title">Aayush Gupta</h1>
+      <div class="hero-identity">
+        <img class="hero-avatar" src="{{ site.author.portrait | relative_url }}" alt="Aayush Gupta" width="72" height="72" loading="eager" decoding="async">
+        <h1 class="hero-title">Aayush Gupta</h1>
+      </div>
 
       <p class="hero-lead">
         Building <em>generative models</em>, molecular representations, and physics-informed AI for drug discovery.
@@ -50,10 +53,10 @@ redirect_from:
       </div>
     </div>
 
-    <figure class="portrait-card">
-      <img src="{{ site.author.portrait | relative_url }}" alt="Portrait of Aayush Gupta" width="640" height="800" loading="eager" decoding="async">
+    <figure class="feature-photo">
+      <img src="{{ '/images/aayu1.jpeg' | relative_url }}" alt="Aayush Gupta presenting computational drug discovery research" width="1100" height="622" loading="eager" decoding="async">
       <figcaption>
-        <span>PhD, Computational Chemistry</span>
+        <span>Research presentation · UIC</span>
         <span class="portrait-card__loc">Boston, MA</span>
       </figcaption>
     </figure>
