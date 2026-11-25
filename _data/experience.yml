@@ -1,68 +1,65 @@
 focus:
-  - label: "Generative Models for Novel Modalities"
-    summary: "Developing diffusion models and deep generative architectures for new therapeutic modalities, conditional structure generation, and de novo molecular design."
+  - label: "3D Diffusion & Masked Generative Models"
+    summary: "Training 3D diffusion models for conformer generation and sidechain-conditioned peptide backbone design, alongside masked generative models for non-intuitive SAR exploration."
   - label: "De Novo Protein & Binder Design"
-    summary: "Building structure-guided protein binder design workflows paired with uncertainty-aware scoring and multi-parameter candidate ranking."
-  - label: "Molecular Representations & ADME"
-    summary: "Training predictive ADME models grounded in experimental assay data and designing algorithmic library enumeration for synthesis-ready compound sets."
+    summary: "Designing de novo protein binders with Boltz and AlphaFold, identifying experimental hits for early-stage programs with uncertainty-aware ranking."
+  - label: "ML-Cheminformatics & PK/ADMET"
+    summary: "Curating experimental datasets and training custom ML-cheminformatics encoders from scratch for peptide physchem and PK/ADMET prediction, paired with ML error analysis and active learning."
   - label: "Physics-Informed Simulation"
-    summary: "Combining neural network potentials, high-throughput molecular dynamics, and free-energy calculations (ABFE/RBFE) with statistical learning."
+    summary: "Building scalable OpenMM MD and ABFE/RBFE free-energy pipelines, high-throughput screening protocols, and graph neural network potentials."
 
 industry:
-  - organization: "Vida Vinci Inc"
+  - organization: "VidaVinci Inc"
     role: "Scientist II, Machine Learning"
     period: "Jul 2025 – Present"
     location: "Boston, MA"
     featured: true
-    summary: "Generative models (including diffusion for novel modalities), molecular representations, and protein binder design."
+    summary: "3D diffusion models for conformer generation and peptide backbone design, masked generative models for SAR, de novo protein binders, and custom PK/ADMET encoders."
     highlights:
-      - "Developing generative models, including diffusion-based architectures, for novel therapeutic modalities."
-      - "Building molecular representations and predictive ADME models grounded in internal experimental data."
-      - "Working on de novo protein binder design and uncertainty-aware candidate ranking workflows."
-      - "Designing algorithmic library enumeration pipelines for optimized, synthesis-ready compound sets."
+      - "Cleaned experimental datasets and trained custom ML-cheminformatics encoders from scratch to predict peptide physchem and PK/ADMET properties; identified a faulty CRO wet-lab experiment via ML error analysis."
+      - "Trained masked generative models across multiple programs to guide chemists toward non-intuitive SAR exploration alongside Free-Wilson analysis."
+      - "Trained 3D diffusion models for conformer generation and sidechain-conditioned peptide backbone design; designed de novo protein binders (Boltz/AlphaFold), identifying hits for an early-stage program."
+      - "Managed end-to-end ML pipelines for continuous retraining, benchmarking, deployment, and active-learning assay selection."
 
   - organization: "DeepCure Inc"
     role: "Senior Scientist, Computational Chemistry"
     period: "Nov 2023 – May 2025"
     location: "Boston, MA"
     featured: true
-    summary: "High-throughput molecular dynamics, free-energy workflows, and internal computational chemistry tooling."
+    summary: "AI/CompChem molecule evaluation tools, end-to-end OpenMM MD and ABFE/RBFE free-energy pipelines, and 300x faster MD screening."
     highlights:
-      - "Built an end-to-end OpenMM MD and ABFE/RBFE platform with automated in-house Amber preparation."
-      - "Engineered a high-throughput MD screening protocol that improved screening throughput by roughly 300x."
-      - "Designed computational chemistry review tools for molecules entering synthesis and assay workflows."
-      - "Improved internal AI and computational chemistry pipelines for generated molecule and docking pose quality."
+      - "Designed and deployed AI/CompChem tools to evaluate molecules prior to synthesis and assays, supporting DeepCure's $24M funding milestone."
+      - "Implemented an end-to-end OpenMM MD and ABFE/RBFE free-energy pipeline with in-house Amber prep, eliminating third-party vendor dependencies."
+      - "Engineered a high-throughput MD screening protocol with a 300x speedup and improved generated molecule quality and docking pose accuracy."
 
   - organization: "Exscientia Inc"
-    role: "AI Research Scientist, Computational Chemistry"
+    role: "AI Research Scientist"
     period: "Mar 2022 – Nov 2023"
     location: "Boston, MA"
     featured: true
-    summary: "PhysicsML neural network potentials, active learning, ADMET modeling, and linker generation."
+    summary: "PhysicsML neural network potentials (EXS-NNP), ADMET predictors, active learning, and linker generation workflows."
     highlights:
-      - "Collaborated across AI/ML and medicinal chemistry teams on ADMET, active learning, and linker generation workflows."
-      - "Led work within the PhysicsML group and helped shape product direction for physics-informed ML."
-      - "Helped deliver EXS-NNP, a graph neural network potential that outperformed ANI on coupled-cluster benchmark data."
+      - "Collaborated with medicinal chemists to refine ADMET predictors, active learning models, and linker generation workflows based on experimental feedback."
+      - "Led core efforts in the PhysicsML team (exscientia.github.io/physicsml), recognized as an Investor's Choice highlight."
+      - "Developed a GNN-based neural network potential (EXS-NNP) outperforming state-of-the-art ANI on coupled-cluster QM datasets."
 
   - organization: "Schrödinger Inc"
     role: "Research Intern"
     period: "Summer 2019"
     location: "New York, NY"
     featured: false
-    summary: "Neural network potentials for small-molecule crystal polymorph prediction."
+    summary: "Neural network potentials (ANI) for small-molecule crystal polymorph prediction with 100x speedup."
     highlights:
-      - "Evaluated ANI neural network potentials for crystal polymorph prediction with DFT-like accuracy at force-field speed."
-      - "Analyzed potential energy surfaces across 100 crystal systems and 500+ polymorph structures."
-      - "Reported 98% DFT-to-ANI correlation in relative energy predictions."
+      - "Evaluated deep neural network potentials (ANI) to achieve DFT (QM) accuracy at force-field speed (100x speedup) for small-molecule crystal polymorph prediction, reporting 98% DFT–ANI correlation."
+      - "Analyzed potential energy surfaces of 100+ crystal structures (>500 polymorphs) using DFT/ANI-1 potentials to identify experimentally stable forms from literature curation."
 
 doctoral:
   institution: "University of Illinois at Chicago"
-  degree: "PhD, Computational Chemistry · MS, Chemistry"
+  degree: "MS, Ph.D. in Computational Chemistry · Aug 2016 – Feb 2022"
   advisor: "Prof. Huan-Xiang Zhou"
   highlights:
-    - "Built a generative deep learning framework to guide conformational sampling of intrinsically disordered proteins and accelerate MD simulations."
-    - "Developed an ML-enabled virtual screening pipeline targeting RPN11 for triple-negative breast cancer."
-    - "Designed hybrid neural-potential and classical MD workflows for SARS-CoV-2 main protease drug repurposing."
+    - "Implemented a generative AI deep network for conformational sampling of intrinsically disordered proteins (IDPs) and introduced a protocol to accelerate MD simulations."
+    - "Designed AI/ML-based virtual screening and neural force-field workflows against RPN11 breast cancer and SARS-CoV-2 MPRO targets."
     - "Studied electron transport in molecular helices and statistical-mechanics modeling of biomolecular systems."
   links:
     - label: "generative_IDPs"
@@ -71,16 +68,15 @@ doctoral:
       url: "https://github.com/aaayushg/RPN11_inhibitors"
 
 earlier:
-  - "University of Illinois at Chicago (Prof. Petr Kral): Quantum chemistry modeling across DFT, TDDFT, QM/MM, and ab initio molecular dynamics."
-  - "MIPT (Prof. Artem Oganov): Evolutionary crystal structure prediction (USPEX) of stable and metastable europium nitride structures."
-  - "Indian Institute of Science (IISc): Molecular dynamics studies of zeolite MOFs and adsorption behavior of chemical-agent-like molecules."
-  - "BARC & CSIR: Porous carbon nitride catalysis and reaction isomerization pathways."
-  - "Institute of Chemical Technology, Mumbai (BTech, Chemical Technology): Undergraduate research on dye prediction, cellulose chemistry, and silicene."
+  - "Moscow Institute of Physics & Technology, Russia (Prof. Artem Oganov, Jun–Aug 2015): Predicted stable and metastable structures of Europium Nitride (Eu2N) crystal using USPEX."
+  - "Indian Institute of Science (IISc), Bengaluru (Prof. S. Yashonath, May–Jun 2015): Performed MD simulations of zeolite MOFs with aromatic warfare agent simulants (xylene, benzene)."
+  - "Bhabha Atomic Research Centre (BARC), Mumbai (Prof. Swapan Ghosh, Dec 2014–Jan 2015): Carried out periodic DFT on porous carbon nitride (C3N4) to investigate photocatalytic water-splitting reactions."
+  - "CSIR-NIIST (Dr. C.H. Suresh, May–Jul 2014) & ICT Mumbai (Prof. N. Sekar, Jan–May 2013): Modeled cyclopropene-to-allene isomerization pathways via DFT and predicted dye colors using quantum particle-in-a-box/ring models."
 
 education:
   - institution: "University of Illinois at Chicago"
-    degree: "PhD, Computational Chemistry · MS, Chemistry"
-    detail: "Doctoral research under Prof. Huan-Xiang Zhou on machine learning methods for advancing computational chemistry."
-  - institution: "Institute of Chemical Technology, Mumbai"
-    degree: "BTech, Chemical Technology"
-    detail: "Undergraduate foundation in chemistry, materials, and molecular simulation."
+    degree: "MS, Ph.D. in Computational Chemistry · Aug 2016 – Feb 2022"
+    detail: "Dissertation under Prof. Huan-Xiang Zhou on machine learning methods for advancing computational chemistry."
+  - institution: "Institute of Chemical Technology (ICT), Mumbai"
+    degree: "B.Tech. in Chemical Technology · Aug 2012 – May 2016"
+    detail: "Undergraduate foundation in chemistry, materials science, and molecular simulation."

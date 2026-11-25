@@ -28,7 +28,7 @@ redirect_from:
 
       <div class="hero-right">
         <p class="hero-bio">
-          I'm a machine learning scientist at Vida Vinci in Boston, developing generative models, including diffusion architectures for novel therapeutic modalities, alongside predictive ADME modeling and de novo protein binder design. Previously, I built high-throughput molecular simulation platforms at DeepCure and worked on PhysicsML neural potentials at Exscientia.
+          I'm a machine learning scientist at VidaVinci in Boston with 10+ years across academia and industry, building 3D diffusion models for conformer generation and peptide backbone design, masked generative models for SAR exploration, custom PK/ADMET encoders, and de novo protein binders. Previously, I built high-throughput molecular simulation platforms at DeepCure and worked on PhysicsML neural potentials at Exscientia.
         </p>
 
         <div class="hero-actions">

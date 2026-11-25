@@ -18,15 +18,13 @@ description: "Journal peer review, university teaching, and mentoring in chemist
   <div class="container">
     <div class="card-grid-2 stagger">
       <article class="info-card">
-        <p class="info-card__kicker">Peer Review</p>
-        <h3>Journal Reviewer</h3>
-        <p class="info-card__sub">5 peer-reviewed journals</p>
+        <p class="info-card__kicker">Web of Science / Publons Verified</p>
+        <h3>Peer Review &amp; Scientific Service</h3>
+        <p class="info-card__sub">Journals &amp; Book Chapters</p>
         <ul class="bullet-list">
-          <li>Journal of Chemical Information and Modeling</li>
-          <li>Journal of Physical Chemistry B</li>
-          <li>PLOS ONE</li>
-          <li>Frontiers in Molecular Biosciences</li>
-          <li>Chemical Physics Letters</li>
+          <li>Reviewed scientific manuscripts across <em>Journal of Molecular Modeling</em> (Springer Nature), <em>RSC Advances</em>, <em>Journal of Computational Biology</em>, and <em>Advanced Concepts in Pharmaceutical Research</em>.</li>
+          <li>Reviewed topics spanning LLE and hierarchical clustering for JAK1 MD conformational screening, SARS-CoV-2 RdRp and human renin inhibitor docking, and multi-spectroscopic/in-silico DNA intercalator design.</li>
+          <li>Reviewed book chapters on network pharmacology, molecular docking, MD simulations, and MM-GBSA cancer target discovery in <em>Pharmaceutical Research: Recent Advances and Trends</em>.</li>
         </ul>
         <div class="entry-links">
           <a class="mini-link" href="{{ site.author.publons }}" target="_blank" rel="noopener">Publons Profile &nearr;</a>
