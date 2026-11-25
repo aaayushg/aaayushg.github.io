@@ -14,16 +14,16 @@ description: "Industry and academic research experience across generative models
   </div>
 </header>
 
-<section class="band reveal">
+<section class="band">
   <div class="container">
-    <div class="section-head">
+    <div class="section-head reveal">
       <div>
         <p class="section-eyebrow">Industry</p>
         <h2>Biotech &amp; AI roles</h2>
       </div>
     </div>
 
-    <div class="timeline">
+    <div class="timeline stagger">
       {% for item in site.data.experience.industry %}
         <article class="timeline-item{% if forloop.first %} timeline-item--current{% endif %}">
           <div class="entry-head">
@@ -42,16 +42,16 @@ description: "Industry and academic research experience across generative models
   </div>
 </section>
 
-<section class="band band--tinted reveal">
+<section class="band band--tinted">
   <div class="container">
-    <div class="section-head">
+    <div class="section-head reveal">
       <div>
         <p class="section-eyebrow">Academic</p>
         <h2>Doctoral &amp; earlier research</h2>
       </div>
     </div>
 
-    <div class="card-grid-2">
+    <div class="card-grid-2 stagger">
       <article class="info-card">
         <p class="info-card__kicker">PhD Research · {{ site.data.experience.doctoral.advisor }}</p>
         <h3>{{ site.data.experience.doctoral.institution }}</h3>

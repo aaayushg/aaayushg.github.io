@@ -14,9 +14,9 @@ description: "Journal peer review, university teaching, and mentoring in chemist
   </div>
 </header>
 
-<section class="band reveal">
+<section class="band">
   <div class="container">
-    <div class="card-grid-2">
+    <div class="card-grid-2 stagger">
       <article class="info-card">
         <p class="info-card__kicker">Peer Review</p>
         <h3>Journal Reviewer</h3>

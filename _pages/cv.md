@@ -21,7 +21,7 @@ redirect_from:
   </div>
 </header>
 
-<section class="band">
+<section class="band reveal">
   <div class="container">
     <div class="cv-shell">
       <iframe

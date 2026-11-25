@@ -17,16 +17,16 @@ description: "Peer-reviewed publications, preprints, and conference presentation
   </div>
 </header>
 
-<section class="band reveal">
+<section class="band">
   <div class="container">
-    <div class="section-head">
+    <div class="section-head reveal">
       <div>
         <p class="section-eyebrow">Journal Articles &amp; Preprints</p>
         <h2>Selected papers</h2>
       </div>
     </div>
 
-    <div class="pub-list">
+    <div class="pub-list stagger">
       {% for paper in site.data.publications.papers %}
         <article class="pub-card">
           <span class="pub-year">{{ paper.year }}</span>
@@ -50,16 +50,16 @@ description: "Peer-reviewed publications, preprints, and conference presentation
   </div>
 </section>
 
-<section class="band band--tinted reveal">
+<section class="band band--tinted">
   <div class="container">
-    <div class="section-head">
+    <div class="section-head reveal">
       <div>
         <p class="section-eyebrow">Conferences</p>
         <h2>Presentations</h2>
       </div>
     </div>
 
-    <div class="card-grid-2">
+    <div class="card-grid-2 stagger">
       {% for talk in site.data.publications.talks %}
         <article class="info-card">
           <p class="info-card__kicker">{{ talk.date }}</p>
