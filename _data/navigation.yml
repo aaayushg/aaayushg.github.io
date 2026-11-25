@@ -1,23 +1,13 @@
-# main links links
 main:
-  - title: "About"
+  - title: "Overview"
     url: /
-
   - title: "Experience"
     url: /research/
-
-  - title: "Skills"
-    url: /skills/
-
   - title: "Publications"
     url: /publications/
-
+  - title: "Capabilities"
+    url: /skills/
   - title: "Service"
     url: /teaching/
-
   - title: "CV"
     url: /cv/
-
-
-
-

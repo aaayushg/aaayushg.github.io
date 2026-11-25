@@ -1,0 +1,54 @@
+papers:
+  - year: 2022
+    authors: "<strong>Gupta, A.</strong>, Dey, S., Hicks, A., &amp; Zhou, H.-X."
+    title: "Artificial intelligence guided conformational mining of intrinsically disordered proteins"
+    venue: "Communications Biology"
+    citation: "5, 610"
+    url: "https://www.nature.com/articles/s42003-022-03562-y"
+    pdf: "/files/ai_idp.pdf"
+    featured: true
+
+  - year: 2021
+    authors: "<strong>Gupta, A.</strong> &amp; Zhou, H.-X."
+    title: "A machine learning-enabled pipeline for large-scale virtual drug screening"
+    venue: "Journal of Chemical Information and Modeling"
+    citation: "61(9), 4236–4244"
+    url: "https://pubs.acs.org/doi/10.1021/acs.jcim.1c00710"
+    pdf: "/files/jcim.pdf"
+    featured: true
+
+  - year: 2020
+    authors: "<strong>Gupta, A.</strong> &amp; Zhou, H.-X."
+    title: "Profiling SARS-CoV-2 main protease binding to repurposed drugs using molecular dynamics simulations in classical and neural network-trained force fields"
+    venue: "ACS Combinatorial Science"
+    citation: "22(12), 826–832"
+    url: "https://pubs.acs.org/doi/abs/10.1021/acscombsci.0c00140"
+    pdf: "/files/acscomb.pdf"
+    featured: true
+
+  - year: 2020
+    authors: "<strong>Gupta, A.</strong>"
+    title: "Profiling molecular simulations of SARS-CoV-2 main protease binding to repurposed drugs using neural network force fields"
+    venue: "ChemRxiv"
+    citation: "Preprint"
+    url: "https://chemrxiv.org/engage/chemrxiv/article-details/60c753e33a3df4df8f77fae6"
+    featured: false
+
+  - year: 2017
+    authors: "<strong>Gupta, A.</strong> &amp; Arora, J. S."
+    title: "DFT evidence of unforeseen bending in linearly fused polycyclic rings of hexasilabenzenoids"
+    venue: "Computational and Theoretical Chemistry"
+    citation: "1099, 87–91"
+    url: "https://www.sciencedirect.com/science/article/abs/pii/S2210271X16304492"
+    pdf: "/files/Silicene.pdf"
+    featured: false
+
+talks:
+  - year: 2017
+    title: "Oral Presentation"
+    venue: "American Chemical Society (ACS) National Meeting, San Francisco, CA"
+    date: "April 2017"
+  - year: 2017
+    title: "Poster Presentation"
+    venue: "Annual Midwest Theoretical Chemistry Conference, East Lansing, MI"
+    date: "June 2017"

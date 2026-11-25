@@ -1,21 +1,28 @@
-{% include base_path %}
-
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% include seo.html %}
+{% assign page_title = page.title | default: site.title %}
+{% if page.url == "/" %}
+  <title>{{ site.title }} — {{ site.author.role }}</title>
+{% else %}
+  <title>{{ page_title }} — {{ site.title }}</title>
+{% endif %}
 
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+<meta name="description" content="{{ page.description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 }}">
+<meta name="author" content="{{ site.author.name }}">
+<meta name="theme-color" content="#FAF8F5">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{% if page.url == '/' %}{{ site.title }}{% else %}{{ page_title }} — {{ site.title }}{% endif %}">
+<meta property="og:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 }}">
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
+<meta property="og:image" content="{{ site.author.portrait | absolute_url }}">
 
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
+<link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}">
 
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
 
-<meta http-equiv="cleartype" content="on">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">

@@ -1,0 +1,32 @@
+:root {
+  /* Warm Editorial Paper & Ink */
+  --bg: #FAF8F5;
+  --surface: #FFFFFF;
+  --surface-warm: #F3EFE8;
+  --ink: #1C1B19;
+  --ink-secondary: #4D4A44;
+  --ink-muted: #787269;
+
+  /* Subtle Warm Hairlines */
+  --rule: #E6E1D8;
+  --rule-strong: #CFC8BC;
+
+  /* Grounded Editorial Accent */
+  --accent: #1E5650;
+  --accent-soft: rgba(30, 86, 80, 0.08);
+  --warm-accent: #8F4A2E;
+
+  /* Typography */
+  --font-serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Rhythm */
+  --container-max: 940px;
+  --gutter: clamp(1.25rem, 4.5vw, 2.5rem);
+  --section-gap: clamp(3rem, 6vw, 4.75rem);
+  --radius: 6px;
+
+  /* Motion */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}

@@ -1,0 +1,30 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} — Home">
+      <span class="brand-name">{{ site.title }}</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+      <span class="nav-toggle__line"></span>
+      <span class="nav-toggle__line"></span>
+    </button>
+
+    <nav id="primary-nav" class="site-nav" aria-label="Primary">
+      <ul class="nav-list">
+        {% for item in site.data.navigation.main %}
+          {% assign is_current = false %}
+          {% if page.url == item.url %}
+            {% assign is_current = true %}
+          {% elsif item.url != "/" and page.url contains item.url %}
+            {% assign is_current = true %}
+          {% endif %}
+          <li>
+            <a class="nav-link{% if is_current %} is-active{% endif %}" href="{{ item.url | relative_url }}"{% if is_current %} aria-current="page"{% endif %}>
+              {{ item.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,128 +1,83 @@
 ---
-layout: archive
 title: "Experience"
 permalink: /research/
-author_profile: false
+description: "Industry and academic research experience across generative models, computational chemistry, molecular dynamics, and drug discovery."
 ---
 
-<div class="aayush-page">
-  <section class="section-card page-hero reveal">
-    <p class="section-label">Experience</p>
-    <h2>Building drug-discovery systems across ML, simulation, and molecular design</h2>
-    <p class="section-lead">My recent work spans biotech startups and research-heavy teams, with a consistent focus on turning technically strong models and simulation methods into decisions scientists can use in practice.</p>
-    <div class="page-meta-list reveal-children">
-      <span>4 industry roles</span>
-      <span>ML + MD workflows</span>
-      <span>Biotech product context</span>
-      <span>Boston and global teams</span>
+<header class="page-header">
+  <div class="container">
+    <h1>Experience</h1>
+    <p class="page-header__lead">
+      My work spans biotech startups and academic research, focused on building generative models, physics-based simulation workflows, and practical ML systems for drug discovery.
+    </p>
+  </div>
+</header>
+
+<section class="editorial-section reveal">
+  <div class="container editorial-grid">
+    <div>
+      <h2 class="section-heading">Industry</h2>
+      <p class="section-aside">Machine learning and computational chemistry roles in Boston and New York.</p>
     </div>
-  </section>
 
-  <section class="section-card reveal">
-    <p class="section-label">Industry</p>
-    <h2>Recent roles</h2>
-    <div class="timeline reveal-children">
-      <div class="timeline-item">
-        <div class="timeline-header timeline-header--stacked">
-          <span class="timeline-kicker">Vida Vinci Inc</span>
-          <span class="timeline-role">Scientist II, Machine Learning</span>
-          <span class="timeline-meta">Boston · Jul 2025 – present</span>
-        </div>
-        <ul class="note-list">
-          <li>Built molecular representations and trained models for experimental ADME property prediction.</li>
-          <li>Worked on de novo protein binder design and uncertainty-aware ranking workflows.</li>
-          <li>Designed algorithmic library enumeration for optimized, synthesis-ready compound sets.</li>
-        </ul>
-      </div>
-
-      <div class="timeline-item">
-        <div class="timeline-header timeline-header--stacked">
-          <span class="timeline-kicker">DeepCure Inc</span>
-          <span class="timeline-role">Senior Scientist, Computational Chemistry</span>
-          <span class="timeline-meta">Nov 2023 – May 2025</span>
-        </div>
-        <ul class="note-list">
-          <li>Designed and implemented computational chemistry tooling to review molecules entering synthesis and assay workflows.</li>
-          <li>Built an end-to-end MD + ABFE/RBFE platform in OpenMM with in-house Amber preparation.</li>
-          <li>Engineered a high-throughput MD screening method that improved throughput by ~300×.</li>
-          <li>Advanced internal AI and CompChem platforms to improve generated molecules and docking poses.</li>
-        </ul>
-      </div>
-
-      <div class="timeline-item">
-        <div class="timeline-header timeline-header--stacked">
-          <span class="timeline-kicker">Exscientia Inc</span>
-          <span class="timeline-role">AI Research Scientist, Computational Chemistry</span>
-          <span class="timeline-meta">Mar 2022 – Nov 2023</span>
-        </div>
-        <ul class="note-list">
-          <li>Worked across AI/ML and medicinal chemistry teams to refine ADMET, active learning, and linker generation workflows.</li>
-          <li>Led efforts within the PhysicsML team and contributed to the PhysicsML product direction.</li>
-          <li>Helped deliver EXS-NNP, a GNN-based neural potential that outperformed ANI on coupled-cluster theory data.</li>
-        </ul>
-      </div>
-
-      <div class="timeline-item">
-        <div class="timeline-header timeline-header--stacked">
-          <span class="timeline-kicker">Schrödinger Inc</span>
-          <span class="timeline-role">Research Intern</span>
-          <span class="timeline-meta">New York City · Summer 2019</span>
-        </div>
-        <ul class="note-list">
-          <li>Evaluated ANI neural network potentials for small-molecule crystal polymorph prediction with DFT-like accuracy at force-field speed.</li>
-          <li>Analyzed potential energy surfaces for 100 crystal systems and 500+ polymorph structures.</li>
-          <li>Reported 98% DFT-to-ANI correlation in prediction quality.</li>
-        </ul>
-      </div>
+    <div class="entry-list">
+      {% for item in site.data.experience.industry %}
+        <article class="entry">
+          <div class="entry-head">
+            <span class="entry-org">{{ item.organization }}</span>
+            <span class="entry-period">{{ item.period }}</span>
+          </div>
+          <p class="entry-role">{{ item.role }} · {{ item.location }}</p>
+          <ul class="bullet-list">
+            {% for point in item.highlights %}
+              <li>{{ point }}</li>
+            {% endfor %}
+          </ul>
+        </article>
+      {% endfor %}
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="grid-panels">
-    <article class="section-card reveal">
-      <p class="section-label">Doctoral Research</p>
-      <h2>PhD at UIC</h2>
-      <ul class="note-list">
-        <li>Implemented a generative deep learning model to guide conformational sampling of intrinsically disordered proteins and accelerate MD workflows.</li>
-        <li>Developed a machine-learning enabled virtual screening pipeline against RPN11, a breast cancer drug target.</li>
-        <li>Designed hybrid AI and molecular simulation workflows for SARS-CoV-2 main protease.</li>
-        <li>Explored electron transport in molecular helices and other physics-rich modeling problems under Prof. Huan-Xiang Zhou.</li>
-      </ul>
-      <div class="inline-link-row">
-        <a href="https://github.com/aaayushg/generative_IDPs">IDP project</a>
-        <a href="https://github.com/aaayushg/RPN11_inhibitors">RPN11 project</a>
-      </div>
-    </article>
+<section class="editorial-section reveal">
+  <div class="container editorial-grid">
+    <div>
+      <h2 class="section-heading">Doctoral Research</h2>
+      <p class="section-aside">{{ site.data.experience.doctoral.advisor }}</p>
+    </div>
 
-    <article class="section-card reveal">
-      <p class="section-label">Earlier Research</p>
-      <h2>Foundation across chemistry and materials</h2>
-      <ul class="note-list">
-        <li>UIC research assistant work with Prof. Petr Kral on quantum chemistry methods including DFT, TDDFT, QM/MM, AIMD, and related analysis.</li>
-        <li>MIPT work with Prof. Artem Oganov on USPEX-based prediction of stable and metastable europium nitride structures.</li>
-        <li>IISc molecular dynamics simulations on zeolite MOFs and adsorption behavior of warfare-agent-like molecules.</li>
-        <li>BARC and CSIR projects on porous carbon nitride catalysis and reaction isomerization pathways.</li>
-        <li>ICT undergraduate work spanning dye prediction, cellulose chemistry, and silicene modeling.</li>
-      </ul>
-    </article>
-  </section>
-</div>
+    <div class="entry-list">
+      <article class="entry">
+        <div class="entry-head">
+          <span class="entry-org">{{ site.data.experience.doctoral.institution }}</span>
+        </div>
+        <p class="entry-role">{{ site.data.experience.doctoral.degree }}</p>
+        <ul class="bullet-list">
+          {% for point in site.data.experience.doctoral.highlights %}
+            <li>{{ point }}</li>
+          {% endfor %}
+        </ul>
+        <div class="entry-links">
+          {% for link in site.data.experience.doctoral.links %}
+            <a class="quiet-link" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }} &nearr;</a>
+          {% endfor %}
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
 
-<script>
-;(function(){
-  var targets = document.querySelectorAll('.reveal, .reveal-children');
-  if (!targets.length) return;
-  if ('IntersectionObserver' in window) {
-    var io = new IntersectionObserver(function(entries){
-      entries.forEach(function(e){
-        if (e.isIntersecting) {
-          e.target.classList.add('is-visible');
-          io.unobserve(e.target);
-        }
-      });
-    }, { threshold: 0.12 });
-    targets.forEach(function(t){ io.observe(t); });
-  } else {
-    targets.forEach(function(t){ t.classList.add('is-visible'); });
-  }
-})();
-</script>
+<section class="editorial-section reveal">
+  <div class="container editorial-grid">
+    <div>
+      <h2 class="section-heading">Earlier Research</h2>
+      <p class="section-aside">Quantum chemistry, materials, and molecular modeling.</p>
+    </div>
+
+    <ul class="bullet-list" style="margin-top: 0;">
+      {% for item in site.data.experience.earlier %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

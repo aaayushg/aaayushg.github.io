@@ -1,89 +1,67 @@
 ---
-layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: false
+description: "Peer-reviewed publications, preprints, and conference presentations in computational chemistry and machine learning."
 ---
 
-<div class="aayush-page">
-  <section class="section-card page-hero reveal">
-    <p class="section-label">Selected Work</p>
-    <h2>Publications and talks at the intersection of simulation and machine learning</h2>
-    <p class="section-lead">These papers reflect a recurring theme in my work: using statistical learning and molecular physics together to make difficult biomolecular and medicinal chemistry problems more tractable.</p>
-    <div class="page-meta-list reveal-children">
-      <span>5 publications and preprints</span>
-      <span>Communications Biology</span>
-      <span>JCIM and ACS Combinatorial Science</span>
-      <span>AI-driven computational chemistry</span>
+<header class="page-header">
+  <div class="container">
+    <h1>Publications</h1>
+    <p class="page-header__lead">
+      Peer-reviewed papers, preprints, and talks combining statistical learning with molecular physics. Also indexed on <a class="quiet-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a>.
+    </p>
+  </div>
+</header>
+
+<section class="editorial-section reveal">
+  <div class="container editorial-grid">
+    <div>
+      <h2 class="section-heading">Papers &amp; Preprints</h2>
     </div>
-  </section>
 
-  <section class="section-card reveal">
-    <p class="section-label">Selected Work</p>
-    <h2>Publications</h2>
-    <ol class="publication-list reveal-children">
-      <li>
-        <span class="publication-year">2022</span>
-        <strong>Gupta, Aayush</strong>, Dey, Souvik, Hicks, Alan, and Zhou, Huan-Xiang. Artificial intelligence guided conformational mining of intrinsically disordered proteins. <a href="https://www.nature.com/articles/s42003-022-03562-y#citeas">Communications Biology</a>, 5, 610. <a href="/files/ai_idp.pdf">PDF</a>
-      </li>
-      <li>
-        <span class="publication-year">2021</span>
-        <strong>Gupta, Aayush</strong> and Zhou, Huan-Xiang. A machine learning-enabled pipeline for large-scale virtual drug screening. <a href="https://pubs.acs.org/doi/10.1021/acs.jcim.1c00710">Journal of Chemical Information and Modeling</a>, 61(9), 4236-4244. <a href="/files/jcim.pdf">PDF</a>
-      </li>
-      <li>
-        <span class="publication-year">2020</span>
-        <strong>Gupta, Aayush</strong> and Zhou, Huan-Xiang. Profiling SARS-CoV-2 main protease binding to repurposed drugs using molecular dynamics simulations in classical and neural network-trained force fields. <a href="https://pubs.acs.org/doi/abs/10.1021/acscombsci.0c00140">ACS Combinatorial Science</a>, 22(12), 826-832. <a href="/files/acscomb.pdf">PDF</a>
-      </li>
-      <li>
-        <span class="publication-year">2020</span>
-        <strong>Gupta, Aayush</strong>. Profiling molecular simulations of SARS-CoV-2 main protease binding to repurposed drugs using neural network force fields. <a href="https://chemrxiv.org/engage/chemrxiv/article-details/60c753e33a3df4df8f77fae6">ChemRxiv</a>
-      </li>
-      <li>
-        <span class="publication-year">2017</span>
-        <strong>Gupta, Aayush</strong> and Arora, Jyotsna S. DFT evidence of unforeseen bending in linearly fused polycyclic rings of hexasilabenzenoids. <a href="https://www.sciencedirect.com/science/article/abs/pii/S2210271X16304492">Computational and Theoretical Chemistry</a>, 1099, 87-91. <a href="/files/Silicene.pdf">PDF</a>
-      </li>
-    </ol>
-  </section>
+    <div class="pub-list">
+      {% for paper in site.data.publications.papers %}
+        <article class="pub-item">
+          <span class="pub-year">{{ paper.year }}</span>
+          <div>
+            <h3 class="pub-title">
+              <a href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.title }}</a>
+            </h3>
+            <p class="pub-authors">{{ paper.authors }}</p>
+            <div class="pub-meta">
+              <span class="pub-venue">{{ paper.venue }}</span>
+              <span>{{ paper.citation }}</span>
+              <a href="{{ paper.url }}" target="_blank" rel="noopener">Journal</a>
+              {% if paper.pdf %}
+                <a href="{{ paper.pdf | relative_url }}" target="_blank" rel="noopener">PDF</a>
+              {% endif %}
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
 
-  <section class="grid-panels">
-    <article class="section-card reveal">
-      <p class="section-label">Talks</p>
-      <h2>Presentations</h2>
-      <ul class="note-list">
-        <li>Oral presentation at the ACS Meeting in San Francisco, April 2017.</li>
-        <li>Poster presentation at the Annual Midwest Theoretical Conference in East Lansing, June 2017.</li>
-      </ul>
-    </article>
+<section class="editorial-section reveal">
+  <div class="container editorial-grid">
+    <div>
+      <h2 class="section-heading">Presentations</h2>
+    </div>
 
-    <article class="section-card reveal">
-      <p class="section-label">Research Direction</p>
-      <h2>Recurring themes</h2>
-      <ul class="note-list">
-        <li>Machine learning guided conformational exploration for difficult biomolecular systems.</li>
-        <li>Virtual screening and ranking pipelines grounded in both statistics and physical chemistry.</li>
-        <li>Hybrid workflows that connect molecular simulation, representation learning, and experimental decision making.</li>
-      </ul>
-    </article>
-  </section>
-</div>
-
-<script>
-;(function(){
-  var targets = document.querySelectorAll('.reveal, .reveal-children');
-  if (!targets.length) return;
-  if ('IntersectionObserver' in window) {
-    var io = new IntersectionObserver(function(entries){
-      entries.forEach(function(e){
-        if (e.isIntersecting) {
-          e.target.classList.add('is-visible');
-          io.unobserve(e.target);
-        }
-      });
-    }, { threshold: 0.12 });
-    targets.forEach(function(t){ io.observe(t); });
-  } else {
-    targets.forEach(function(t){ t.classList.add('is-visible'); });
-  }
-})();
-</script>
-
+    <div class="pub-list">
+      {% for talk in site.data.publications.talks %}
+        <article class="pub-item">
+          <span class="pub-year">{{ talk.year }}</span>
+          <div>
+            <h3 class="pub-title">{{ talk.title }}</h3>
+            <p class="pub-authors">{{ talk.venue }}</p>
+            <div class="pub-meta">
+              <span>{{ talk.date }}</span>
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
