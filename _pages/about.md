@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Aayush Gupta"
-description: "Machine learning scientist and computational chemist working on generative models, diffusion for novel modalities, and drug discovery."
+description: "Machine learning scientist and computational chemist working on generative models, 3D diffusion, and drug discovery."
 redirect_from:
   - /about/
   - /about.html
@@ -9,26 +9,23 @@ redirect_from:
 
 <section class="hero">
   <div class="container">
-    <div class="hero-top">
+    <div class="hero-header">
       <div>
         <p class="hero-eyebrow">
           <span class="hero-eyebrow__line" aria-hidden="true"></span>
           Machine Learning Scientist and Computational Chemist
         </p>
 
-        <div class="hero-identity">
-          <img class="hero-avatar" src="{{ site.author.portrait | relative_url }}" alt="Aayush Gupta" width="72" height="72" loading="eager" decoding="async">
-          <h1 class="hero-title">Aayush Gupta</h1>
-        </div>
+        <h1 class="hero-title">Aayush Gupta</h1>
 
         <p class="hero-lead">
-          Building <em>generative models</em>, molecular representations, and physics-informed AI for drug discovery.
+          Building <em>3D diffusion models</em>, masked generative architectures, and physics-informed AI for drug discovery.
         </p>
       </div>
 
       <div class="hero-right">
         <p class="hero-bio">
-          I'm a machine learning scientist at VidaVinci in Boston with 10+ years across academia and industry, building 3D diffusion models for conformer generation and peptide backbone design, masked generative models for SAR exploration, custom PK/ADMET encoders, and de novo protein binders. Previously, I built high-throughput molecular simulation platforms at DeepCure and worked on PhysicsML neural potentials at Exscientia.
+          I'm a machine learning scientist at VidaVinci in Boston with 10+ years across academia and industry, developing 3D diffusion models for conformer generation and peptide backbone design, masked generative models for SAR exploration, custom PK/ADMET encoders, and de novo protein binders.
         </p>
 
         <div class="hero-actions">
@@ -57,15 +54,39 @@ redirect_from:
       </div>
     </div>
 
-    <figure class="feature-photo">
-      <div class="feature-photo__viewport">
-        <img class="feature-photo__img" src="{{ '/images/aayu1.jpeg' | relative_url }}" alt="Aayush Gupta presenting computational drug discovery research" width="1600" height="905" loading="eager" decoding="async">
-      </div>
-      <figcaption>
-        <span>Presenting ML-enabled virtual drug screening research · University of Illinois at Chicago</span>
-        <span class="portrait-card__loc">Boston, MA · PhD, UIC</span>
-      </figcaption>
-    </figure>
+    <div class="hero-media">
+      <figure class="feature-photo">
+        <div class="feature-photo__viewport">
+          <img class="feature-photo__img" src="{{ '/images/aayu1.jpeg' | relative_url }}" alt="Aayush Gupta presenting computational drug discovery research" width="1600" height="905" loading="eager" decoding="async">
+        </div>
+        <figcaption>
+          <span>Presenting ML-enabled virtual drug screening research · UIC</span>
+          <span class="portrait-card__loc">Computational Chemistry × AI</span>
+        </figcaption>
+      </figure>
+
+      <aside class="profile-card" aria-label="Profile summary">
+        <div class="profile-card__photo">
+          <img src="{{ site.author.portrait | relative_url }}" alt="Portrait of Aayush Gupta" width="640" height="800" loading="eager" decoding="async">
+        </div>
+        <div class="profile-card__body">
+          <div class="profile-card__facts">
+            <div class="profile-fact">
+              <span class="profile-fact__label">Location</span>
+              <span class="profile-fact__val">Boston, MA</span>
+            </div>
+            <div class="profile-fact">
+              <span class="profile-fact__label">Current</span>
+              <span class="profile-fact__val">VidaVinci Inc</span>
+            </div>
+            <div class="profile-fact">
+              <span class="profile-fact__label">Degree</span>
+              <span class="profile-fact__val">PhD, UIC</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
   </div>
 </section>
 
