@@ -1,8 +1,10 @@
 :root {
-  /* Gallery Palette */
+  /* Light Gallery Palette */
   --bg: #FBFBF9;
   --band: #F3F1EC;
   --surface: #FFFFFF;
+  --header-bg: rgba(251, 251, 249, 0.86);
+  --header-bg-scrolled: rgba(251, 251, 249, 0.96);
   --dark: #141619;
   --dark-muted: #9CA3AF;
 
@@ -14,15 +16,19 @@
   /* Borders & Elevation */
   --border: rgba(20, 22, 25, 0.085);
   --border-strong: rgba(20, 22, 25, 0.16);
+  --dot-color: rgba(20, 22, 25, 0.04);
+  --spotlight: rgba(15, 76, 92, 0.065);
   --shadow-card: 0 1px 2px rgba(20, 22, 25, 0.03), 0 10px 28px -14px rgba(20, 22, 25, 0.08);
-  --shadow-hover: 0 2px 6px rgba(20, 22, 25, 0.04), 0 18px 36px -16px rgba(20, 22, 25, 0.12);
+  --shadow-hover: 0 2px 6px rgba(20, 22, 25, 0.04), 0 20px 38px -16px rgba(20, 22, 25, 0.13);
   --shadow-portrait: 0 18px 44px -18px rgba(20, 22, 25, 0.18), 0 2px 8px rgba(20, 22, 25, 0.04);
 
   /* Editorial Accents */
   --accent: #0F4C5C;
   --accent-hover: #0B3A47;
-  --accent-soft: rgba(15, 76, 92, 0.07);
+  --accent-soft: rgba(15, 76, 92, 0.08);
+  --accent-glow: rgba(15, 76, 92, 0.075);
   --bronze: #9A6340;
+  --bronze-glow: rgba(154, 99, 64, 0.065);
 
   /* Typography */
   --font-serif: "Newsreader", Georgia, "Times New Roman", serif;
@@ -38,4 +44,33 @@
 
   /* Motion */
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+[data-theme="dark"] {
+  --bg: #0E1116;
+  --band: #13171F;
+  --surface: #171C26;
+  --header-bg: rgba(14, 17, 22, 0.84);
+  --header-bg-scrolled: rgba(14, 17, 22, 0.95);
+  --dark: #090B0E;
+  --dark-muted: #8B93A1;
+
+  --ink: #F2F4F7;
+  --ink-secondary: #B0B7C3;
+  --ink-muted: #7F8896;
+
+  --border: rgba(242, 244, 247, 0.085);
+  --border-strong: rgba(242, 244, 247, 0.16);
+  --dot-color: rgba(242, 244, 247, 0.045);
+  --spotlight: rgba(79, 179, 191, 0.11);
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.25), 0 12px 30px -14px rgba(0, 0, 0, 0.5);
+  --shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.3), 0 22px 44px -16px rgba(0, 0, 0, 0.65);
+  --shadow-portrait: 0 22px 50px -18px rgba(0, 0, 0, 0.65), 0 2px 10px rgba(0, 0, 0, 0.35);
+
+  --accent: #4FB3BF;
+  --accent-hover: #6AC4CF;
+  --accent-soft: rgba(79, 179, 191, 0.14);
+  --accent-glow: rgba(79, 179, 191, 0.11);
+  --bronze: #D69E72;
+  --bronze-glow: rgba(214, 158, 114, 0.09);
 }

@@ -57,7 +57,10 @@ redirect_from:
     <div class="hero-media">
       <figure class="feature-photo">
         <div class="feature-photo__viewport">
-          <img class="feature-photo__img" src="{{ '/images/aayu1.jpeg' | relative_url }}" alt="Aayush Gupta presenting computational drug discovery research" width="1600" height="905" loading="eager" decoding="async">
+          <picture>
+            <source srcset="{{ '/images/aayu1.webp' | relative_url }}" type="image/webp">
+            <img class="feature-photo__img" src="{{ '/images/aayu1.jpeg' | relative_url }}" alt="Aayush Gupta presenting computational drug discovery research" width="1600" height="905" loading="eager" decoding="async" fetchpriority="high">
+          </picture>
         </div>
         <figcaption>
           <span>Presenting ML-enabled virtual drug screening research · UIC</span>
@@ -67,7 +70,10 @@ redirect_from:
 
       <aside class="profile-card" aria-label="Profile summary">
         <div class="profile-card__photo">
-          <img src="{{ site.author.portrait | relative_url }}" alt="Portrait of Aayush Gupta" width="640" height="800" loading="eager" decoding="async">
+          <picture>
+            <source srcset="{{ '/images/portrait.webp' | relative_url }}" type="image/webp">
+            <img src="{{ site.author.portrait | relative_url }}" alt="Portrait of Aayush Gupta" width="640" height="800" loading="eager" decoding="async">
+          </picture>
         </div>
         <div class="profile-card__body">
           <div class="profile-card__facts">
@@ -86,6 +92,21 @@ redirect_from:
           </div>
         </div>
       </aside>
+    </div>
+
+    <div class="impact-strip stagger">
+      <div class="impact-item">
+        <span class="impact-value" data-count="10" data-suffix="+">10+</span>
+        <span class="impact-label">Years across academia and biotech in AI and computational chemistry</span>
+      </div>
+      <div class="impact-item">
+        <span class="impact-value" data-count="300" data-suffix="×">300×</span>
+        <span class="impact-label">High-throughput molecular dynamics screening speedup engineered at DeepCure</span>
+      </div>
+      <div class="impact-item">
+        <span class="impact-value" data-count="98" data-suffix="%">98%</span>
+        <span class="impact-label">DFT-to-NNP correlation achieved for small-molecule crystal polymorph prediction</span>
+      </div>
     </div>
   </div>
 </section>
