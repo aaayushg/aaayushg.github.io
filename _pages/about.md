@@ -25,7 +25,7 @@ redirect_from:
 
       <div class="hero-right">
         <p class="hero-bio">
-          I'm a machine learning scientist at VidaVinci in Boston with 10+ years across academia and industry, developing 3D diffusion models for conformer generation and peptide backbone design, masked generative models for SAR exploration, custom PK/ADMET encoders, and de novo protein binders.
+          I'm a machine learning scientist at VidaVinci in Boston with 10+ years across academia and industry, developing 3D diffusion models for conformer generation and new modalities, masked generative models for SAR exploration, custom PK/ADMET encoders for small molecules and new modalities, and de novo protein binders.
         </p>
 
         <div class="hero-actions">

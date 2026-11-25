@@ -1,10 +1,10 @@
 focus:
   - label: "3D Diffusion & Masked Generative Models"
-    summary: "Training 3D diffusion models for conformer generation and sidechain-conditioned peptide backbone design, alongside masked generative models for non-intuitive SAR exploration."
+    summary: "Training 3D diffusion models for conformer generation and new modality design, alongside masked generative models for non-intuitive SAR exploration."
   - label: "De Novo Protein & Binder Design"
     summary: "Designing de novo protein binders with Boltz and AlphaFold, identifying experimental hits for early-stage programs with uncertainty-aware ranking."
   - label: "ML-Cheminformatics & PK/ADMET"
-    summary: "Curating experimental datasets and training custom ML-cheminformatics encoders from scratch for peptide physchem and PK/ADMET prediction, paired with ML error analysis and active learning."
+    summary: "Curating experimental datasets and training custom ML-cheminformatics encoders from scratch for small-molecule and new-modality physchem and PK/ADMET prediction, paired with ML error analysis and active learning."
   - label: "Physics-Informed Simulation"
     summary: "Building scalable OpenMM MD and ABFE/RBFE free-energy pipelines, high-throughput screening protocols, and graph neural network potentials."
 
@@ -14,11 +14,11 @@ industry:
     period: "Jul 2025 – Present"
     location: "Boston, MA"
     featured: true
-    summary: "3D diffusion models for conformer generation and peptide backbone design, masked generative models for SAR, de novo protein binders, and custom PK/ADMET encoders."
+    summary: "3D diffusion models for conformer generation and new modalities, masked generative models for SAR, de novo protein binders, and custom PK/ADMET encoders."
     highlights:
-      - "Cleaned experimental datasets and trained custom ML-cheminformatics encoders from scratch to predict peptide physchem and PK/ADMET properties; identified a faulty CRO wet-lab experiment via ML error analysis."
+      - "Cleaned experimental datasets and trained custom ML-cheminformatics encoders from scratch to predict small-molecule and new-modality physchem and PK/ADMET properties; identified a faulty CRO wet-lab experiment via ML error analysis."
       - "Trained masked generative models across multiple programs to guide chemists toward non-intuitive SAR exploration alongside Free-Wilson analysis."
-      - "Trained 3D diffusion models for conformer generation and sidechain-conditioned peptide backbone design; designed de novo protein binders (Boltz/AlphaFold), identifying hits for an early-stage program."
+      - "Trained 3D diffusion models for conformer generation and new modality design; designed de novo protein binders (Boltz/AlphaFold), identifying hits for an early-stage program."
       - "Managed end-to-end ML pipelines for continuous retraining, benchmarking, deployment, and active-learning assay selection."
 
   - organization: "DeepCure Inc"
