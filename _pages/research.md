@@ -4,25 +4,28 @@ permalink: /research/
 description: "Industry and academic research experience across generative models, computational chemistry, molecular dynamics, and drug discovery."
 ---
 
-<header class="page-header">
+<header class="page-hero">
   <div class="container">
+    <p class="section-eyebrow">Career &amp; Research</p>
     <h1>Experience</h1>
-    <p class="page-header__lead">
-      My work spans biotech startups and academic research, focused on building generative models, physics-based simulation workflows, and practical ML systems for drug discovery.
+    <p class="page-hero__lead">
+      Industry and doctoral work across generative models, molecular simulation, neural network potentials, and computational drug discovery.
     </p>
   </div>
 </header>
 
-<section class="editorial-section reveal">
-  <div class="container editorial-grid">
-    <div>
-      <h2 class="section-heading">Industry</h2>
-      <p class="section-aside">Machine learning and computational chemistry roles in Boston and New York.</p>
+<section class="band reveal">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="section-eyebrow">Industry</p>
+        <h2>Biotech &amp; AI roles</h2>
+      </div>
     </div>
 
-    <div class="entry-list">
+    <div class="timeline">
       {% for item in site.data.experience.industry %}
-        <article class="entry">
+        <article class="timeline-item{% if forloop.first %} timeline-item--current{% endif %}">
           <div class="entry-head">
             <span class="entry-org">{{ item.organization }}</span>
             <span class="entry-period">{{ item.period }}</span>
@@ -39,19 +42,20 @@ description: "Industry and academic research experience across generative models
   </div>
 </section>
 
-<section class="editorial-section reveal">
-  <div class="container editorial-grid">
-    <div>
-      <h2 class="section-heading">Doctoral Research</h2>
-      <p class="section-aside">{{ site.data.experience.doctoral.advisor }}</p>
+<section class="band band--tinted reveal">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="section-eyebrow">Academic</p>
+        <h2>Doctoral &amp; earlier research</h2>
+      </div>
     </div>
 
-    <div class="entry-list">
-      <article class="entry">
-        <div class="entry-head">
-          <span class="entry-org">{{ site.data.experience.doctoral.institution }}</span>
-        </div>
-        <p class="entry-role">{{ site.data.experience.doctoral.degree }}</p>
+    <div class="card-grid-2">
+      <article class="info-card">
+        <p class="info-card__kicker">PhD Research · {{ site.data.experience.doctoral.advisor }}</p>
+        <h3>{{ site.data.experience.doctoral.institution }}</h3>
+        <p class="info-card__sub">{{ site.data.experience.doctoral.degree }}</p>
         <ul class="bullet-list">
           {% for point in site.data.experience.doctoral.highlights %}
             <li>{{ point }}</li>
@@ -59,25 +63,21 @@ description: "Industry and academic research experience across generative models
         </ul>
         <div class="entry-links">
           {% for link in site.data.experience.doctoral.links %}
-            <a class="quiet-link" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }} &nearr;</a>
+            <a class="mini-link" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }} &nearr;</a>
           {% endfor %}
         </div>
       </article>
-    </div>
-  </div>
-</section>
 
-<section class="editorial-section reveal">
-  <div class="container editorial-grid">
-    <div>
-      <h2 class="section-heading">Earlier Research</h2>
-      <p class="section-aside">Quantum chemistry, materials, and molecular modeling.</p>
+      <article class="info-card">
+        <p class="info-card__kicker">Foundations</p>
+        <h3>Earlier Research</h3>
+        <p class="info-card__sub">Quantum Chemistry, Materials &amp; Simulation</p>
+        <ul class="bullet-list">
+          {% for item in site.data.experience.earlier %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </article>
     </div>
-
-    <ul class="bullet-list" style="margin-top: 0;">
-      {% for item in site.data.experience.earlier %}
-        <li>{{ item }}</li>
-      {% endfor %}
-    </ul>
   </div>
 </section>

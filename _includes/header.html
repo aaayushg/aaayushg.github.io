@@ -19,9 +19,15 @@
             {% assign is_current = true %}
           {% endif %}
           <li>
-            <a class="nav-link{% if is_current %} is-active{% endif %}" href="{{ item.url | relative_url }}"{% if is_current %} aria-current="page"{% endif %}>
-              {{ item.title }}
-            </a>
+            {% if item.url == "/cv/" %}
+              <a class="nav-pill{% if is_current %} is-active{% endif %}" href="{{ item.url | relative_url }}"{% if is_current %} aria-current="page"{% endif %}>
+                {{ item.title }}
+              </a>
+            {% else %}
+              <a class="nav-link{% if is_current %} is-active{% endif %}" href="{{ item.url | relative_url }}"{% if is_current %} aria-current="page"{% endif %}>
+                {{ item.title }}
+              </a>
+            {% endif %}
           </li>
         {% endfor %}
       </ul>

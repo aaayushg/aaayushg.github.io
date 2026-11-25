@@ -10,134 +10,155 @@ redirect_from:
 <section class="hero">
   <div class="container hero-grid">
     <div>
-      <p class="hero-role">{{ site.author.role }} · {{ site.author.employer }} · {{ site.author.location }}</p>
+      <p class="hero-eyebrow">
+        <span class="hero-eyebrow__line" aria-hidden="true"></span>
+        {{ site.author.role }} · {{ site.author.employer }}
+      </p>
+
       <h1 class="hero-title">Aayush Gupta</h1>
 
       <p class="hero-lead">
-        I work at the intersection of <em>machine learning</em>, <em>computational chemistry</em>, and drug discovery.
+        Building <em>generative models</em>, molecular representations, and physics-informed AI for drug discovery.
       </p>
 
       <p class="hero-bio">
-        Currently at Vida Vinci in Boston, I build generative models, including diffusion architectures for novel therapeutic modalities, alongside molecular representations, predictive ADME models, and de novo protein binder design workflows. Previously, I worked on high-throughput molecular dynamics and free-energy methods at DeepCure and PhysicsML neural potentials at Exscientia.
+        I'm a machine learning scientist at Vida Vinci in Boston, developing generative models, including diffusion architectures for novel therapeutic modalities, alongside predictive ADME modeling and de novo protein binder design. Previously, I built high-throughput molecular simulation platforms at DeepCure and worked on PhysicsML neural potentials at Exscientia.
       </p>
 
-      <div class="hero-links">
-        <a class="btn" href="{{ '/cv/' | relative_url }}">Curriculum Vitae</a>
-        <a class="btn btn--quiet" href="{{ '/research/' | relative_url }}">Experience</a>
-        <a class="quiet-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a>
-        <a class="quiet-link" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a>
-        <a class="quiet-link" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
-        <a class="quiet-link" href="mailto:{{ site.author.email }}">Email</a>
+      <div class="hero-actions">
+        <a class="btn" href="{{ '/cv/' | relative_url }}">View CV &rarr;</a>
+        <a class="btn btn--secondary" href="{{ '/research/' | relative_url }}">Experience</a>
+      </div>
+
+      <div class="social-row">
+        <a class="social-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5"/></svg>
+          Google Scholar
+        </a>
+        <a class="social-link" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+          GitHub
+        </a>
+        <a class="social-link" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+        <a class="social-link" href="mailto:{{ site.author.email }}">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          Email
+        </a>
       </div>
     </div>
 
-    <figure class="portrait-figure">
+    <figure class="portrait-card">
       <img src="{{ site.author.portrait | relative_url }}" alt="Portrait of Aayush Gupta" width="640" height="800" loading="eager" decoding="async">
-      <figcaption>Boston, MA · PhD, UIC</figcaption>
+      <figcaption>
+        <span>PhD, Computational Chemistry</span>
+        <span class="portrait-card__loc">Boston, MA</span>
+      </figcaption>
     </figure>
   </div>
 </section>
 
-<section class="editorial-section reveal">
-  <div class="container editorial-grid">
-    <div>
-      <h2 class="section-heading">Current Focus</h2>
-      <p class="section-aside">Where I spend most of my time right now.</p>
+<section class="band band--tinted reveal">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="section-eyebrow">Current Work</p>
+        <h2>Research &amp; engineering focus</h2>
+      </div>
     </div>
 
-    <div class="focus-list">
+    <div class="focus-grid">
       {% for area in site.data.experience.focus %}
-        <div class="focus-item">
+        <article class="focus-card">
+          <span class="focus-card__num">0{{ forloop.index }}</span>
           <h3>{{ area.label }}</h3>
           <p>{{ area.summary }}</p>
-        </div>
+        </article>
       {% endfor %}
     </div>
   </div>
 </section>
 
-<section class="editorial-section reveal">
-  <div class="container editorial-grid">
-    <div>
-      <h2 class="section-heading">Experience</h2>
-      <p class="section-aside">Recent roles in biotech and AI-driven drug discovery.</p>
+<section class="band reveal">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="section-eyebrow">Career</p>
+        <h2>Selected experience</h2>
+      </div>
+      <a class="section-link" href="{{ '/research/' | relative_url }}">Full experience <span aria-hidden="true">&rarr;</span></a>
     </div>
 
-    <div>
-      <div class="entry-list">
-        {% for item in site.data.experience.industry %}
-          {% if item.featured %}
-            <article class="entry">
-              <div class="entry-head">
-                <span class="entry-org">{{ item.organization }}</span>
-                <span class="entry-period">{{ item.period }}</span>
-              </div>
-              <p class="entry-role">{{ item.role }}</p>
-              <p class="entry-summary">{{ item.summary }}</p>
-            </article>
-          {% endif %}
-        {% endfor %}
-      </div>
-
-      <p class="section-more">
-        <a class="quiet-link" href="{{ '/research/' | relative_url }}">Full experience &amp; doctoral research &rarr;</a>
-      </p>
+    <div class="timeline">
+      {% for item in site.data.experience.industry %}
+        {% if item.featured %}
+          <article class="timeline-item{% if forloop.first %} timeline-item--current{% endif %}">
+            <div class="entry-head">
+              <span class="entry-org">{{ item.organization }}</span>
+              <span class="entry-period">{{ item.period }}</span>
+            </div>
+            <p class="entry-role">{{ item.role }}</p>
+            <p class="entry-summary">{{ item.summary }}</p>
+          </article>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </section>
 
-<section class="editorial-section reveal">
-  <div class="container editorial-grid">
-    <div>
-      <h2 class="section-heading">Selected Papers</h2>
-      <p class="section-aside">Peer-reviewed work combining simulation and machine learning.</p>
+<section class="band band--tinted reveal">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="section-eyebrow">Research Output</p>
+        <h2>Selected publications</h2>
+      </div>
+      <a class="section-link" href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">&rarr;</span></a>
     </div>
 
-    <div>
-      <div class="pub-list">
-        {% for paper in site.data.publications.papers %}
-          {% if paper.featured %}
-            <article class="pub-item">
-              <span class="pub-year">{{ paper.year }}</span>
-              <div>
-                <h3 class="pub-title">
-                  <a href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.title }}</a>
-                </h3>
-                <p class="pub-authors">{{ paper.authors }}</p>
-                <div class="pub-meta">
-                  <span class="pub-venue">{{ paper.venue }}</span>
-                  <span>{{ paper.citation }}</span>
-                  {% if paper.pdf %}
-                    <a href="{{ paper.pdf | relative_url }}" target="_blank" rel="noopener">PDF</a>
-                  {% endif %}
-                </div>
+    <div class="pub-list">
+      {% for paper in site.data.publications.papers %}
+        {% if paper.featured %}
+          <article class="pub-card">
+            <span class="pub-year">{{ paper.year }}</span>
+            <div>
+              <h3 class="pub-title">
+                <a href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.title }}</a>
+              </h3>
+              <p class="pub-authors">{{ paper.authors }}</p>
+              <div class="pub-meta">
+                <span class="pub-venue">{{ paper.venue }}</span>
+                <span>{{ paper.citation }}</span>
+                <a class="mini-link" href="{{ paper.url }}" target="_blank" rel="noopener">Journal &nearr;</a>
+                {% if paper.pdf %}
+                  <a class="mini-link" href="{{ paper.pdf | relative_url }}" target="_blank" rel="noopener">PDF</a>
+                {% endif %}
               </div>
-            </article>
-          {% endif %}
-        {% endfor %}
-      </div>
-
-      <p class="section-more">
-        <a class="quiet-link" href="{{ '/publications/' | relative_url }}">All publications &amp; talks &rarr;</a>
-      </p>
+            </div>
+          </article>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </section>
 
-<section class="editorial-section reveal">
-  <div class="container editorial-grid">
-    <div>
-      <h2 class="section-heading">Education</h2>
+<section class="band reveal">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="section-eyebrow">Background</p>
+        <h2>Education</h2>
+      </div>
     </div>
 
-    <div class="entry-list">
+    <div class="card-grid-2">
       {% for edu in site.data.experience.education %}
-        <article class="entry">
-          <div class="entry-head">
-            <span class="entry-org">{{ edu.institution }}</span>
-          </div>
-          <p class="entry-role">{{ edu.degree }}</p>
-          <p class="entry-summary">{{ edu.detail }}</p>
+        <article class="info-card">
+          <h3>{{ edu.institution }}</h3>
+          <p class="info-card__sub">{{ edu.degree }}</p>
+          <p>{{ edu.detail }}</p>
         </article>
       {% endfor %}
     </div>

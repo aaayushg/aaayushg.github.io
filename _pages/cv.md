@@ -6,24 +6,24 @@ redirect_from:
   - /resume
 ---
 
-<header class="page-header">
+<header class="page-hero">
   <div class="container">
+    <p class="section-eyebrow">Resume</p>
     <h1>Curriculum Vitae</h1>
-    <p class="page-header__lead">
-      A complete summary of my industry experience, doctoral research, publications, and academic background.
+    <p class="page-hero__lead">
+      A complete overview of my industry experience, doctoral research, publications, and academic background.
     </p>
-
-    <div class="hero-links">
+    <div class="page-hero__actions">
       <a class="btn" href="{{ site.author.resume | relative_url }}" target="_blank" rel="noopener">Open PDF &nearr;</a>
-      <a class="btn btn--quiet" href="{{ site.author.resume | relative_url }}" download>Download PDF &darr;</a>
-      <a class="quiet-link" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+      <a class="btn btn--secondary" href="{{ site.author.resume | relative_url }}" download>Download PDF &darr;</a>
+      <a class="btn btn--secondary" href="mailto:{{ site.author.email }}">Email</a>
     </div>
   </div>
 </header>
 
-<section class="editorial-section">
+<section class="band">
   <div class="container">
-    <div class="cv-frame-wrap">
+    <div class="cv-shell">
       <iframe
         src="{{ site.author.resume | relative_url }}"
         class="cv-frame"
